@@ -74,6 +74,11 @@ Aan Mats gevraagd hoe je in je code en mark kan zetten
 ## Hoe lang duurde het?
 
 ## Wat heb ik geleerd?
+Nieuwe code voor mij is: <fieldset>, <legend> en pattern=""
+
+Van Mats geleerd hoe ik een mark kan zetten voor aantekeningen in de code
+
+Van Jelle een link dat leidt naar de NS-font. Op die manier hoef ik het niet apart op m'n pc te hebben en hoeft het niet op gitignore.
 
 ## Wat ga ik morgen doen?
 
@@ -133,3 +138,7 @@ Besproken met
 Progressive enhancement reading list (2021). Geraadpleegd op 16-02-2026 van https://www.quirksmode.org/blog/archives/2021/02/progressive_enh_1.html
 
 It's hard to justify Tahoe icons (2026). Geraadpleegd op 16-02-2026 van https://tonsky.me/blog/tahoe-icons/
+
+Aangifte 2025 Erfbelasting (2025). Geraadpleegd op 16-02-2026 van https://download.belastingdienst.nl/belastingdienst/docs/aangifte_erfbel_2025_suc0602z52fol.pdf
+
+NS (1996). Geraadpleegd op 16-02-2026 van https://www.ns.nl/?utm_source=google&utm_medium=Paid_Search&utm_campaign=NSR-CORP-BR-corporate_C13090&utm_content=&utm_term=ns&utm_id=google_ads_16495705419&gad_source=1&gad_campaignid=16495705419&gbraid=0AAAAADPhMscPjWWI3vSi6V8BraJihnTJl&gclid=CjwKCAiAncvMBhBEEiwA9GU_fti-30alVtLNWP_fT4Or7iASikKIst1hdjk270mZGHsGt4If4pYxQhoC04YQAvD_BwE

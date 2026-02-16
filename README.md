@@ -1,8 +1,8 @@
-Deze webstie is een schoolproject!
+Deze website is een schoolproject!
 
 # Dag 01 (16-02-2026)
 ## Checkout
-Besproken met
+Besproken met Arvid
 
 ## Wat heb ik gedaan vandaag?
 Introductie over de opdracht.
@@ -37,22 +37,39 @@ Voorbeeld in het artikel is de muiswiel. Dat was eerst PE en nu nog steeds, omda
 
 Aaron Walter ontwikkelde het model "Hierarchy of User Needs", dat T. Fessenden als basis gebruikt in haar artikel: "A theory of user delight: Why usability is the foundation for delightful experiences".
 A. Walter's Hierarchy of User Needs:
-<img src="./media/hierarchy of user needs.png" alt=Hierarchy of User Needs max-width=300px>
+<img src="./media/hierarchy of user needs.png" alt=Hierarchy of User Needs width=200px>
 
 ### It's hard to justify Tahoe icons
 Bron: https://tonsky.me/blog/tahoe-icons/
 
-Hte is belangrijk om zo min mogelijk icoontjes en graphics te hebben, zodat de gebruiker niet overspoeld wordt en het gebruik overzichtelijker is.
+HIG = Human Interface Guidelines (1992)
+
+Het is belangrijk om zo min mogelijk icoontjes en graphics te hebben, zodat de gebruiker niet overspoeld wordt en het gebruik overzichtelijker is.
 
 In 2025 bracht Apple het bestuuringssyteem Tahoe uit dat het tegenovergestelde hiervan is. Ieder menu-item heeft een apart icoontje. Het is erg druk en minder overzichtelijk.
 
 Icoontjes helpen om sneller bepaalde dingen te vinden en dus op te vallen. Maar om op te vallen moet je anders zijn. Als alles dan een ander icoontje heeft met dezelfde kleur, valt niks op, en verlies je het overzicht.
 
+Als je op 'cut' wil klikken en je ziet een icoontje van een schaar ernaast ga je de volgende keer op zoek naar een schaar als je 'cut' wil gebruiken.
+Tahoe heeft voor ieder menu-item een apart icoontje.
+Voorbeeld: (dit zijn allemaal verschillende icoontjes voor 'new')
+<img src="./media/icons.png" alt="Icons" width=200px>
+Vaak wordt hetzelfde icoontje gebruikt voor andere menu-items.
+Voorbeeld: (import en updates, twee totaal verschillende dingen en toch hetzelfde icoontje)
+<img src="./media/import.png" alt=Import width=200px>
+<img src="./media/updates.png" alt="Updates" width=200px>
 
-Vragen wanneer id. Aangezien je dat op een pagina maar 1x mag gebruiken. Hzo dan geen class
+Naast dat de icoontjes niet overzichtelijker zijn, zijn ze ook nog eens veel kleiner dan is vorige en/of andere bestuuringssystemen.
+Zo had bijv. Windows95 16x16 pixels en Tahoe heeft 12x12 pixels.
+Als je dan deze icoontjes probeert te vergroten om te kunnen zien wat er in staat, wordt het een groot zooitje.
+Voorbeeld: (20x vergroot)
+<img src="./media/pixels.png" alt="pixels" width=200px>
 
-Mats vragen hoe caption dingen code te zetten (zo tackle nieuw leerdoel vorige week)
-Vragen hoe mobile size te beginnen
+
+Een begin gemaakt in de HTML voor de opdracht
+
+Aan Mats gevraagd hoe je in je code en mark kan zetten
+
 
 ## Hoe lang duurde het?
 

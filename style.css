@@ -1,0 +1,22 @@
+.waarschuwing {
+    background-color: #FFC917;
+}
+
+body {
+    background-color: #E6E6E9;
+    margin: 0px;
+}
+
+main {
+    display:grid;
+    @media (width > 19.3rem) {
+        grid-template-columns: 1fr
+        grid-template-areas:
+        "            "
+        "            ";
+    }
+}
+
+input {
+    display: block;
+}

@@ -4,77 +4,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erfbelastingsformulier (schoolproject)</title>
+    <link rel="stylesheet" href=style.css>
 </head>
 <body>
     <!-- MARK: bovenaan de pagina-->
-    <h2>Aangifte Erfbelasting</h2>
+    <section class="waarschuwing">
+        <h2>Aangifte Erfbelasting</h2>
 
-    <!-- MARK: Vragen 1a t/m 2b-->
-    <form>
+        <h5>Dit is een schoolproject</h5>
+
         <p>Persoonsgegevens overledene</p>
+    </section>
+
+    <!-- MARK: Vraag 1-->
+<main>
+    <form>
         <fieldset>
-            <legend>
-                1A.
-            </legend>
-                <label>Voorletter(s)</label>
-                <input type="text">
+            <legend>1A.</legend>
+                <label>Voorletter(s)
+                    <input type="text">
+                </label>
 
-                <label>Tussenvoegsel(s)</label>
-                <input type="text">
+                <label>Tussenvoegsel(s)
+                    <input type="text">
+                </label>
 
-                <label>Achternaam</label>
-                <input type="text">
+                <label>Achternaam
+                    <input type="text">
+                </label>
 
-                <label>BSN-nummer</label>
-                <input type="number">
+                <label>BSN-nummer
+                    <input type="number">
+                </label>
 
-                <label>Overlijdensdatum</label>
-                <input type="date">
+                <label>Overlijdensdatum
+                    <input type="date">
+                </label>
         </fieldset>
 
         <fieldset>
-            <legend>
-                1B.
-            </legend>
-            Was de overledene getrouwd of had de overledene een geregistreerde partner op het moment van overlijden?
-            <label>Ja</label>
-            <input type="checkbox">
-            <label>Nee <i>(ga verder naar 1C)</i>></label>
-            <input type="checkbox">
+            <legend>1B.</legend>
+                <fieldset>
+                    <legend>Was de overledene getrouwd of had de overledene een geregistreerde partner op het moment van overlijden?</legend>
+                        <details>
+                            <input type="radio" name="partner">
+                                <summary>Ja</summary>
+
+                                Hadden de overledene en diens echtgenoot of geregistreerde partner huwelijkse of partnerschapsvoorwaarden laten vastleggen in een notariële akte?
+                                    <label>Ja<i>(stuur een kopie van de akte mee met de aangifte)</i>
+                                        <input type="radio" name="partner2">
+                                    </label>
+
+                                    <label>Nee<i>(ga verder naar 1C)</i>
+                                        <input type="radio" name="partner2">
+                                    </label>
+                                
+                                Hadden de oveledene en diens partner een finaal verrekenbeding?
+                                    <label>Ja
+                                        <input type="radio" name="partner3">
+                                    </label>
+
+                                    <label>Nee
+                                        <input type="radio" name="partner3">
+                                    </label>
+
+                                    <label>
+                                    Datum huwelijkse of partnerschapsvoorwaarden
+                                        <input type="number">
+                                    </label>
+                        </details>
+
+                        <label>Nee <i>(ga verder naar 1C)</i>>
+                            <input type="radio" name="partner">
+                        </label>
+                </fieldset>
         </fieldset>
 
         <fieldset>
-            <legend>
-                1C.
-            </legend>
-            Had de overledene kinderen?
-            <label>Ja</label>
-            <input type="checkbox">
-            <label>Nee <i>(ga verder naar 1D)</i></label>
-            <input type="checkbox">
+            <legend>1C.</legend>
+                <fieldset>
+                    <legend>Had de overledene kinderen?</legend>
+                        <details>
+                            <input type="radio" name="kinderen">
+                                <summary>Ja</summary>
+
+                                    Is 1 van deze kinderen eerder overleden dan de overledene voor wie u nu aangifte doet?
+                                    <label>Ja
+                                        <input type="radio" name="kinderen2">
+                                    </label>
+
+                                    <label>Nee<i>(ga verder naar 1D)</i>
+                                        <input type="radio" name="kinderen2">
+                                    </label>
+
+                                    Had dit overleden kind zelf kinderen?
+                                    <label>Ja
+                                        <input type="radio" name="kinderen3">
+                                    </label>
+
+                                    <label>Nee
+                                        <input type="radio" name="kinderen3">
+                                    </label>
+                        </details>
+                
+                        <label>Nee <i>(ga verder naar 1D)</i>
+                            <input type="radio" name="kinderen">
+                        </label>
+                </fieldset>
         </fieldset>
 
         <fieldset>
-            <legend>
-                1D.
-            </legend>
-            Had de overledene een testament?
-            <label>Ja</label>
-            <input type="checkbox">
-            <label>Nee <i>(ga verder naar 2A)</i></label>
-            <input type="checkbox">
-        </fieldset>
+            <legend>1D.</legend>
+                <fieldset>
+                    <legend>Had de overledene een testament?</legend>
+                        <details>
+                            <input type="radio" name="testament">
+                                <summary>Ja<i>(vul de gegevens in van de notaris die het testament heeft opgemaakt en de datum van het testament.)</i></summary>
+                                    <label>Protocolnummers
+                                        <input type="number" naam="testament2">
+                                    </label>
 
-        <p>Gegevens gemachtigde</p>
-        <fieldset>
-            <legend>
-                2A.
-            </legend>
-            <label></label>
+                                    <label>Voorletter(s)
+                                        <input type="text">
+                                    </label>
+
+                                    <label>Tussenvoegsel(s)
+                                        <input type="text">
+                                    </label>
+
+                                    <label>Achternaam
+                                        <input type="text">
+                                    </label>
+
+                                    <label>Vestigingsplaats
+                                        <input type="text">
+                                    </label>
+
+                                    <label>Datum van het testament of van de laatste wijziging
+                                        <input type="number">
+                                    </label>
+
+                                    <label>BSN overledene
+                                        <input type="number">
+                                    </label>
+                        </details>
+
+                        <label>Nee <i>(ga verder naar 2A)</i>
+                            <input type="radio" name="testament">
+                        </label>
+                </fieldset>
         </fieldset>
     </form>
+</main>
 
-
+    <div class="knoppen">
+        <a href="index.html" class="knop1">1</a>
+        <a href="pattern2.html" class="knop2">2</a>
+        <a href="pattern3.html" class="knop3">3</a>
+    </div>
+    
 
 </body>
 </html>

@@ -70,8 +70,8 @@ Een begin gemaakt in de HTML voor de opdracht
 
 Aan Mats gevraagd hoe je in je code en mark kan zetten
 
-
 ## Hoe lang duurde het?
+van +/- 09:10 tot 16:00
 
 ## Wat heb ik geleerd?
 Nieuwe code voor mij is: <fieldset>, <legend> en pattern=""
@@ -84,15 +84,25 @@ Van Jelle een link dat leidt naar de NS-font. Op die manier hoef ik het niet apa
 
 # Dag 02 (17-02-2026)
 ## Checkout
-Besproken met
+Besproken met Thomas
+Hij heeft in JavaScript ervoor gezorgd dat als je bepaalde vragen neit nodig hebt, deze geskipt worden
 
 ## Wat heb ik gedaan vandaag?
+Workshop HTML gevolgd bij Victor.
+
+details en summary in de HTML toegevoegd
+
+De checkboxes veranderd voor radio buttons. Want met checkboxes zag ik dat je er meerdere kan aanvinken, maar dat wil ik niet
 
 ## Hoe lang duurde het?
+Van +/- 09:15 tot 16:30
 
 ## Wat heb ik geleerd?
+Vandaag niet heel veel nieuws.
+Wel dat een fieldset in een fieldset mag
 
 ## Wat ga ik morgen doen?
+1e les CSS volgen
 
 
 # Dag 03 (18-02-2026)

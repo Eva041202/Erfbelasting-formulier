@@ -1,9 +1,37 @@
+/*MARK - bovenkant van pagina */
 .waarschuwing {
     background-color: red;
 }
 
+span {
+    margin: 0;
+    padding: 1em;
+    font-family: Lucida Grande, Gill Sans, sans-serif;
+    color: rgb(6, 153, 6);
+    font-weight: 700;
+}
+
 .bovenkant {
     background-color: #FFC917;
+}
+
+h1 {
+    margin: 0;
+    color: #003082;
+    font-family: NS Sans, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+/*MARK - formulier */
+legend {
+    font-family: NS Sans, Verdana, sans-serif;
+    color: #003082;
+    font-weight: 700;
+}
+
+label, p {
+    font-family: NS Sans, Verdana, sans-serif;
+    color: #003082;
 }
 
 body {
@@ -11,16 +39,60 @@ body {
     margin: 0px;
 }
 
-main {
-    display:grid;
-    @media (width > 19.3rem) {
-        grid-template-columns: 1fr
-        grid-template-areas:
-        "            "
-        "            ";
-    }
+    /*MARK- Verschijnende vragen */
+.ja-vragen {
+    display:none;
 }
 
-input {
+label:has(input[value="ja"]:checked) ~ .ja-vragen {
     display: block;
+    border-radius: 50%;
+}
+
+    /*MARK - Verschijnende vragen 2 */
+.in-vragen {
+    display:none;
+}
+
+label:has(input[value="inNederland"]:checked) ~ .in-vragen {
+    display: block;
+    border-radius: 50%;
+}
+
+.uit-vragen {
+    display:none;
+}
+
+label:has(input[value="uitNederland"]:checked) ~ .uit-vragen {
+    display: block;
+    border-radius: 50%;
+}
+
+/*MARK - knoppen onderin */
+.knoppen {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100px;
+    gap: 10px;
+}
+
+.knop1, .knop2, .knop3 {
+    background-color: #0063d3;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/*MARK - code voor responsiveness */
+main {
+    display:grid;
+    @media (width > 300px) {
+        grid-template-columns: 1fr
+        /* grid-template-areas:
+        "            "
+        "            "; */
+    }
+    @media (width > 500px) {
+        grid-template-columns: 1fr;
+    }
 }

@@ -104,45 +104,6 @@ Wel dat een fieldset in een fieldset mag
 ## Wat ga ik morgen doen?
 1e les CSS volgen
 
-
-# Dag 03 (18-02-2026)
-## Checkout
-Besproken met
-
-## Wat heb ik gedaan vandaag?
-
-## Hoe lang duurde het?
-
-## Wat heb ik geleerd?
-
-## Wat ga ik morgen doen?
-
-
-# Dag 04 (19-02-2026)
-## Checkout
-Besproken met
-
-## Wat heb ik gedaan vandaag?
-
-## Hoe lang duurde het?
-
-## Wat heb ik geleerd?
-
-## Wat ga ik morgen doen?
-
-
-# Dag 05 (20-02-2026)
-## Checkout
-Besproken met
-
-## Wat heb ik gedaan vandaag?
-
-## Hoe lang duurde het?
-
-## Wat heb ik geleerd?
-
-## Wat ga ik morgen doen?
-
 # Weekoverzicht
 ## Volledige bronnenlijst:
 Progressive enhancement reading list (2021). Geraadpleegd op 16-02-2026 van https://www.quirksmode.org/blog/archives/2021/02/progressive_enh_1.html
@@ -152,3 +113,55 @@ It's hard to justify Tahoe icons (2026). Geraadpleegd op 16-02-2026 van https://
 Aangifte 2025 Erfbelasting (2025). Geraadpleegd op 16-02-2026 van https://download.belastingdienst.nl/belastingdienst/docs/aangifte_erfbel_2025_suc0602z52fol.pdf
 
 NS (1996). Geraadpleegd op 16-02-2026 van https://www.ns.nl/?utm_source=google&utm_medium=Paid_Search&utm_campaign=NSR-CORP-BR-corporate_C13090&utm_content=&utm_term=ns&utm_id=google_ads_16495705419&gad_source=1&gad_campaignid=16495705419&gbraid=0AAAAADPhMscPjWWI3vSi6V8BraJihnTJl&gclid=CjwKCAiAncvMBhBEEiwA9GU_fti-30alVtLNWP_fT4Or7iASikKIst1hdjk270mZGHsGt4If4pYxQhoC04YQAvD_BwE
+
+# Dag 03 (02-03-2026)
+## Checkout
+Besproken met
+
+## Wat heb ik gedaan vandaag?
+Ik heb geprobeerd om het driehoekje van de details te veranderen in css. Dit werkte niet.
+Ik heb het opgezocht en las dat het driehoekje bij details hoort in de browser en niet te veranderen is. Ik kan beter de radio button ja en nee na elkaar schrijven. Apart een div maken voor de extra vragen en deze tervoorschijn laten komen als de gebruiker op ja klikt.
+
+Geprobeerd om de label met ja en nee een value te geven. Dit doet ook niet wat ik wil. Vasilis om hulp gevraagd.
+Ik had in de ccs de input benoemd, inplaats het labbel. Ook is het makkelijk om met :has() te werken. Hier had ik zelf niet aan gedacht, maar door de eerste les van css voor de vakantie weet ik wel hoe :has() werkt.
+
+De margin en padding aangepast, zodat de kleur die ik wil verder kwam dan dat het eerst deed.
+De teksten de juiste lettertypen en kleuren gegeven.
+
+Ik merk dat het me soms veel tijd kost om bepaalde code te vinden.
+Ik ken de code niet uit m'n hoofd. Als ik dan iets wil weet ik wel welke richting op moet zoeken, maar omdat ik de termen (nog) niet kan onthouden kost dit meer tijd.
+
+Vandaag ga ik me inlezen in de bronnen voor clubje 6 op Brightspace voor de Weekly Geek morgen.
+Bronnen:
+<a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/checkbox_role" alt="The Checkbox Role">
+<a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/radio_role" alt="The Radio Role">
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/checkbox" alt="<input type=checkbox>">
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio" alt="<input type=radio>">
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/label" alt="The Label element">
+
+## Hoe lang duurde het?
++/- van 09:00 tot 16:00
+
+## Wat heb ik geleerd?
+Ik heb geen nieuwe code geleerd vandaag.
+Maar ik leer wel door te doen. Wat ik weet schrijf ik en meestal werkt het.
+
+## Wat ga ik morgen doen?
+Ik wil kijken hoe ik de labels mooi onder elkaar krijg, inplaats alles naast elkaar.
+En of een media query nodig is. Ik wil dat alles 1 kolom blijft, ook als de pagina vergroot.
+
+# Dag 04 (03-03-2026)
+## Checkout
+Besproken met
+
+## Wat heb ik gedaan vandaag?
+(max-width inplaats media query)
+
+## Hoe lang duurde het?
+
+## Wat heb ik geleerd?
+
+## Wat ga ik morgen doen?
+
+# Weekoverzicht
+## Volledige bronnenlijst:

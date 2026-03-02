@@ -10,7 +10,7 @@
 
     <!-- MARK: bovenaan de pagina-->
     <section class="waarschuwing">
-        <p>Dit is een schoolproject</p>
+        <span>Dit is een schoolproject</span>
     </section>
 
     <!-- MARK: vraag 2-->
@@ -19,9 +19,8 @@
     <h1 class="bovenkant">Aangifte Erfbelasting</h1>
 
     <form>
-        <p>Gegevens gemachtigde</p>
         <fieldset>
-            <legend>2A.</legend>
+            <legend>Gegevens gemachtigde</legend>
                 <label>BSN/RSIN gemachtigde
                     <input type="number">
                 </label>
@@ -36,7 +35,7 @@
         </fieldset>
 
         <fieldset>
-            <legend>2B.</legend>
+            <legend>Gegevens gemachtigde</legend>
                 <label>Voorletter(s)
                     <input type="text">
                 </label>
@@ -53,59 +52,56 @@
                     <input type="text">
                 </label>
 
-                <details>
-                    <summary>Adres in Nederland</summary>
-                    <label>Straat
-                        <input type="text">
-                    </label>
+<!--MARK: Verschijn vragen 2-->
+                <label>
+                    <input type="radio" value="inNederland">
+                    Adres in Nederland
+                </label>
 
-                    <label>Huisnummer
-                        <input type="text">
-                    </label>
+                <label>
+                    <input type="radio" value="uitNederland">
+                    Adres in het buitenland
+                </label>
 
-                    <label>Toevoeging
-                        <input type="text">
-                    </label>
+                <div class="in-vragen">
+                    <p>Straat</p>
+                    <input type="text">
 
-                    <label>Postcode
-                        <input type="text">
-                    </label>
+                    <p>Huisnummer</p>
+                    <input type="text">
 
-                    <label>Woonplaats
-                        <input type="text">
-                    </label>
-                </details>
+                    <p>Toevoeging</p>
+                    <input type="text">
 
-                <details>
-                    <summary>Adres in het buitenland</summary>
-                    <label>Straat
-                        <input type="text">
-                    </label>
+                    <p>Postcode</p>
+                    <input type="text">
 
-                    <label>Huisnummer
-                        <input type="text">
-                    </label>
+                    <p>Woonplaats</p>
+                    <input type="text">
+                </div>
 
-                    <label>Postcode
-                        <input type="text">
-                    </label>
+                <div class="uit-vragen">
+                    <p>Straat</p>
+                    <input type="text">
 
-                    <label>Plaats
-                        <input type="text">
-                    </label>
+                    <p>Huisnummer</p>
+                    <input type="text">
 
-                    <label>Landcode
-                        <input type="number">
-                    </label>
-                    
-                    <label>Telefoonnummer
-                        <input type="number">
-                    </label>
+                    <p>Postcode</p>
+                    <input type="text">
 
-                    <label>E-mailadres
-                        <input type="email">
-                    </label>
-                </details>
+                    <p>Plaats</p>
+                    <input type="text">
+
+                    <p>Landcode</p>
+                    <input type="number">
+
+                    <p>Telefoonnumer</p>
+                    <input type="number">
+
+                    <p>E-mailadres</p>
+                    <input type="email">
+                </div>
         </fieldset>
     </form>
 </main>

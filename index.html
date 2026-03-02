@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erfbelastingsformulier (schoolproject)</title>
     <link rel="stylesheet" href=style.css>
+    <link rel="stylesheet" href="https://static-ns-nl-data.fep-p.cla.ns.nl/apps/nessie/fonts/1.0.1/fonts.css" />
 </head>
 <body>
     <!-- MARK: bovenaan de pagina-->
     <section class="waarschuwing">
-        <p>Dit is een schoolproject</p>
+        <span>Dit is een schoolproject!!</span>
 
     </section>
 
@@ -42,126 +43,135 @@
                 </label>
         </fieldset>
 
+<!-- MARK: Verschijnende vragen -->
         <fieldset>
             <legend>Gehuwd</legend>
                 <fieldset>
-                    <legend>Was de overledene getrouwd of had de overledene een geregistreerde partner op het moment van overlijden?</legend>
-                        <details>
-                            <input type="radio" name="partner">
-                                <summary>Ja</summary>
+                    <p>Was de overledene getrouwd of had de overledene een geregistreerde partner op het moment van overlijden?</p>
 
-                                Hadden de overledene en diens echtgenoot of geregistreerde partner huwelijkse of partnerschapsvoorwaarden laten vastleggen in een notariële akte?
-                                    <label>Ja<i>(stuur een kopie van de akte mee met de aangifte)</i>
-                                        <input type="radio" name="partner2">
-                                    </label>
+                    <label>
+                        <input type="radio" name="partner" value="ja">
+                        Ja
+                    </label>
 
-                                    <label>Nee<span>(ga verder naar 1C)</span>
-                                        <input type="radio" name="partner2">
-                                    </label>
-                                
-                                Hadden de oveledene en diens partner een finaal verrekenbeding?
-                                    <label>Ja
-                                        <input type="radio" name="partner3">
-                                    </label>
+                    <label>
+                        <input type="radio" name="partner" value="nee">
+                        Nee
+                    </label>
 
-                                    <label>Nee
-                                        <input type="radio" name="partner3">
-                                    </label>
+                    <div class="ja-vragen">
+                        <p>Hadden de overledene en diens echtgenoot of geregistreerde partner huwelijks op partnerschapsvoorwaarden laten vastleggen in een notariële akte?</p>
+                        <input type="radio" name="partner2">
+                        Ja (stuur een kopie van de akte mee met de aangifte)
 
-                                    <label>
-                                    Datum huwelijkse of partnerschapsvoorwaarden
-                                        <input type="number">
-                                    </label>
-                        </details>
+                        <input type="radio" name="partner2">
+                        Nee (ga verder naar 1C)
 
-                        <label>Nee <i>(ga verder naar 1C)</i>>
-                            <input type="radio" name="partner">
-                        </label>
+                        <p>Hadden de overledene en diens partner een finaal verrekenbeding?</p>
+                        <input type="radio" name="partner3">
+                        Ja
+
+                        <input type="radio" name="partner3">
+                        Nee
+
+                        <p>Datum huwelijkse of partnerschapsvoorwaarden</p>
+                            <input type="number">
+                    </div>
                 </fieldset>
         </fieldset>
 
         <fieldset>
             <legend>Kinderen</legend>
                 <fieldset>
-                    <legend>Had de overledene kinderen?</legend>
-                        <details>
-                            <input type="radio" name="kinderen">
-                                <summary>Ja</summary>
+                    <p>Had de overledene kinderen?</p>
 
-                                    Is 1 van deze kinderen eerder overleden dan de overledene voor wie u nu aangifte doet?
-                                    <label>Ja
-                                        <input type="radio" name="kinderen2">
-                                    </label>
+                    <label>
+                        <input type="radio" name="kinderen" value="ja">
+                        Ja
+                    </label>
 
-                                    <label>Nee<i>(ga verder naar 1D)</i>
-                                        <input type="radio" name="kinderen2">
-                                    </label>
+                    <label>
+                        <input type="radio" name="kinderen" value="nee">
+                        Nee (ga verder naar 1D)
+                    </label>
 
-                                    Had dit overleden kind zelf kinderen?
-                                    <label>Ja
-                                        <input type="radio" name="kinderen3">
-                                    </label>
+                    <div class="ja-vragen">
+                        <p>Is 1 van de kinderen eerder overleden dan de overledene voor wie u nu aangifte doet?</p>
+                        <input type="radio" name="kinderen2">
+                        Ja
 
-                                    <label>Nee
-                                        <input type="radio" name="kinderen3">
-                                    </label>
-                        </details>
-                
-                        <label>Nee <i>(ga verder naar 1D)</i>
-                            <input type="radio" name="kinderen">
-                        </label>
+                        <input type="radio" name="kinderen2">
+                        Nee (ga verder naar 1D)
+
+                        <p>Had dit overleden kind zelf kinderen?</p>
+                        <input type="radio" name="kinderen 3">
+                        Ja
+
+                        <input type="radio" name="kinderen3">
+                        Nee
+                    </div>
                 </fieldset>
-        </fieldset>
+            </fieldset>
 
         <fieldset>
             <legend>Testament</legend>
                 <fieldset>
-                    <legend>Had de overledene een testament?</legend>
-                        <details>
-                            <input type="radio" name="testament">
-                                <summary>Ja<i>(vul de gegevens in van de notaris die het testament heeft opgemaakt en de datum van het testament.)</i></summary>
-                                    <label>Protocolnummers
-                                        <input type="number" naam="testament2">
-                                    </label>
+                    <p>Had de overledene een testament?</p>
 
-                                    <label>Voorletter(s)
-                                        <input type="text">
-                                    </label>
+                    <label>
+                        <input type="radio" name="testament" value="ja">
+                        Ja (vul de gegevens in van de notaris die het testament heeft opgemaakt en de datum van het testament.)
+                    </label>
 
-                                    <label>Tussenvoegsel(s)
-                                        <input type="text">
-                                    </label>
+                    <label>
+                        <input type="radio" name="testament" value="nee">
+                        Nee (ga verder naar 2A)
+                    </label>
 
-                                    <label>Achternaam
-                                        <input type="text">
-                                    </label>
+                    <div class="ja-vragen">
+                        <p>Protocolnummers</p>
+                        <input type="number" name="testament2">
 
-                                    <label>Vestigingsplaats
-                                        <input type="text">
-                                    </label>
+                        <p>Voorletter(s)</p>
+                        <input type="text">
 
-                                    <label>Datum van het testament of van de laatste wijziging
-                                        <input type="number">
-                                    </label>
+                        <p>Tussenvoegsel(s)</p>
+                        <input type="text">
 
-                                    <label>BSN overledene
-                                        <input type="number">
-                                    </label>
-                        </details>
+                        <p>Achternaam</p>
+                        <input type="text">
 
-                        <label>Nee <i>(ga verder naar 2A)</i>
-                            <input type="radio" name="testament">
-                        </label>
+                        <p>Vestigingsplaats</p>
+                        <input type="text">
+
+                        <p>Datum van het testament of van de laatste wijziging</p>
+                        <input type="number">
+
+                        <p>BSN overledene</p>
+                        <input type="number">
+                    </div>
                 </fieldset>
         </fieldset>
     </form>
 </main>
 
 <!-- MARK: knoppen-->
+    <div class="volgendeVragen">
+        <h2>Volgende vragen</h2>
+    </div>
+
     <div class="knoppen">
-        <a href="index.html" class="knop1">1</a>
-        <a href="pattern2.html" class="knop2">2</a>
-        <a href="pattern3.html" class="knop3">3</a>
+        <div class="knop1">
+            <a href="index.html" class="knop1">1</a>
+        </div>
+
+        <div class="knop2">
+            <a href="pattern2.html" class="knop2">2</a>
+        </div>
+
+        <div class="knop3">
+            <a href="pattern3.html" class="knop3">3</a>
+        </div>
     </div>
     
 

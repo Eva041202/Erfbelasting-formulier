@@ -29,6 +29,11 @@ legend {
     font-weight: 700;
 }
 
+.labels {
+    display: inline-block;
+    width: 200px;
+}
+
 label, p {
     font-family: NS Sans, Verdana, sans-serif;
     color: #003082;
@@ -37,6 +42,23 @@ label, p {
 body {
     background-color: #E6E6E9;
     margin: 0px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr minmax(0px, 600px) 1fr;
+}
+
+.grid > * {
+    grid-column: 2;
+}
+
+.bovenkant {
+    grid-column: 1 / -1;
+}
+
+form {
+    margin: auto;
 }
 
     /*MARK- Verschijnende vragen */
@@ -83,16 +105,3 @@ label:has(input[value="uitNederland"]:checked) ~ .uit-vragen {
     border-radius: 5px;
 }
 
-/*MARK - code voor responsiveness */
-main {
-    display:grid;
-    @media (width > 300px) {
-        grid-template-columns: 1fr
-        /* grid-template-areas:
-        "            "
-        "            "; */
-    }
-    @media (width > 500px) {
-        grid-template-columns: 1fr;
-    }
-}

@@ -15,38 +15,39 @@
     </section>
 
     <!-- MARK: Vraag 1-->
-<main>
+<main class="grid">
     
     <h1 class="bovenkant">Aangifte Erfbelasting</h1>
-    
-    <form>
-        <fieldset>
-            <legend>Persoonsgegevens overledene</legend>
-                <label>Voorletter(s)
-                    <input type="text">
-                </label>
 
-                <label>Tussenvoegsel(s)
-                    <input type="text">
-                </label>
 
-                <label>Achternaam
-                    <input type="text">
-                </label>
+        <form class="formulier">
+            <fieldset>
+                <legend>Persoonsgegevens overledene</legend>
+                    <div class="labels">
+                        <label>Voorletter(s)
+                            <input type="text">
+                        </label>
 
-                <label>BSN-nummer
-                    <input type="number">
-                </label>
+                        <label>Tussenvoegsel(s)
+                            <input type="text">
+                        </label>
 
-                <label>Overlijdensdatum
-                    <input type="date">
-                </label>
-        </fieldset>
+                        <label>Achternaam
+                            <input type="text">
+                        </label>
 
+                        <label>BSN-nummer
+                            <input type="number">
+                        </label>
+
+                        <label>Overlijdensdatum
+                            <input type="date">
+                        </label>
+                    </div>
+            </fieldset>
 <!-- MARK: Verschijnende vragen -->
-        <fieldset>
-            <legend>Gehuwd</legend>
-                <fieldset>
+            <fieldset>
+                <legend>Gehuwd</legend>
                     <p>Was de overledene getrouwd of had de overledene een geregistreerde partner op het moment van overlijden?</p>
 
                     <label>
@@ -77,12 +78,10 @@
                         <p>Datum huwelijkse of partnerschapsvoorwaarden</p>
                             <input type="number">
                     </div>
-                </fieldset>
-        </fieldset>
+            </fieldset>
 
-        <fieldset>
-            <legend>Kinderen</legend>
-                <fieldset>
+            <fieldset>
+                <legend>Kinderen</legend>
                     <p>Had de overledene kinderen?</p>
 
                     <label>
@@ -111,22 +110,19 @@
                         Nee
                     </div>
                 </fieldset>
-            </fieldset>
 
-        <fieldset>
-            <legend>Testament</legend>
-                <fieldset>
+            <fieldset>
+                <legend>Testament</legend>
                     <p>Had de overledene een testament?</p>
+                        <label>
+                            <input type="radio" name="testament" value="ja">
+                            Ja (vul de gegevens in van de notaris die het testament heeft opgemaakt en de datum van het testament.)
+                        </label>
 
-                    <label>
-                        <input type="radio" name="testament" value="ja">
-                        Ja (vul de gegevens in van de notaris die het testament heeft opgemaakt en de datum van het testament.)
-                    </label>
-
-                    <label>
-                        <input type="radio" name="testament" value="nee">
-                        Nee (ga verder naar 2A)
-                    </label>
+                        <label>
+                            <input type="radio" name="testament" value="nee">
+                            Nee (ga verder naar 2A)
+                        </label>
 
                     <div class="ja-vragen">
                         <p>Protocolnummers</p>
@@ -150,30 +146,26 @@
                         <p>BSN overledene</p>
                         <input type="number">
                     </div>
-                </fieldset>
-        </fieldset>
-    </form>
+            </fieldset>
+        </form>
+            <!-- MARK: knoppen-->
+            <div class="volgendeVragen">
+                <h2>Volgende vragen</h2>
+            </div>
+
+            <div class="knoppen">
+                <div class="knop1">
+                <a href="index.html" class="knop1">1</a>
+                </div>
+
+                <div class="knop2">
+                <a href="pattern2.html" class="knop2">2</a>
+                </div>
+
+                <div class="knop3">
+                <a href="pattern3.html" class="knop3">3</a>
+            </div>
+        
 </main>
-
-<!-- MARK: knoppen-->
-    <div class="volgendeVragen">
-        <h2>Volgende vragen</h2>
-    </div>
-
-    <div class="knoppen">
-        <div class="knop1">
-            <a href="index.html" class="knop1">1</a>
-        </div>
-
-        <div class="knop2">
-            <a href="pattern2.html" class="knop2">2</a>
-        </div>
-
-        <div class="knop3">
-            <a href="pattern3.html" class="knop3">3</a>
-        </div>
-    </div>
-    
-
 </body>
 </html>

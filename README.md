@@ -116,14 +116,14 @@ NS (1996). Geraadpleegd op 16-02-2026 van https://www.ns.nl/?utm_source=google&u
 
 # Dag 03 (02-03-2026)
 ## Checkout
-Besproken met
+Besproken met Luna
 
 ## Wat heb ik gedaan vandaag?
 Ik heb geprobeerd om het driehoekje van de details te veranderen in css. Dit werkte niet.
 Ik heb het opgezocht en las dat het driehoekje bij details hoort in de browser en niet te veranderen is. Ik kan beter de radio button ja en nee na elkaar schrijven. Apart een div maken voor de extra vragen en deze tervoorschijn laten komen als de gebruiker op ja klikt.
 
 Geprobeerd om de label met ja en nee een value te geven. Dit doet ook niet wat ik wil. Vasilis om hulp gevraagd.
-Ik had in de ccs de input benoemd, inplaats het labbel. Ook is het makkelijk om met :has() te werken. Hier had ik zelf niet aan gedacht, maar door de eerste les van css voor de vakantie weet ik wel hoe :has() werkt.
+Ik had in de ccs de input benoemd, inplaats het label. Ook is het makkelijk om met :has() te werken. Hier had ik zelf niet aan gedacht, maar door de eerste les van css voor de vakantie weet ik wel hoe :has() werkt.
 
 De margin en padding aangepast, zodat de kleur die ik wil verder kwam dan dat het eerst deed.
 De teksten de juiste lettertypen en kleuren gegeven.
@@ -152,16 +152,44 @@ En of een media query nodig is. Ik wil dat alles 1 kolom blijft, ook als de pagi
 
 # Dag 04 (03-03-2026)
 ## Checkout
-Besproken met
+Besproken met Kelly
 
 ## Wat heb ik gedaan vandaag?
-(max-width inplaats media query)
+Met het groepjes gezeten aan de Weekly Geek.
+Ik heb geprobeerd mee te werken, maar kon vrij weinig doen.
+De html en css is voor mij echt te begrijpen, maar met de javascript liep ik vast.
+
+Workshop van Victor over valideren. Javascript is nog erg lastig voor me :(
+
+Inplaats een media query gebruik ik een max-width. Ik wil dat het formulier in het midden van het scherm komt te staan, hoe groot of klein het scherm ook is.
+Vasilis heeft me uitgelegd wat margin: auto; betekent en doet.
+Zelf dacht ik dat misschien een grid van 3 kolommen makkelijker is, dat volgend de docent juist is.
+Voor de grid heb ik dan wel een media query nodig om aan te geven waar ze in het grid moeten staan.
+
+Victor heeft me geholpen met de grids en wat nieuwe code vertelt en laten zien.
 
 ## Hoe lang duurde het?
+Van +/- 09:15 tot 16:00
 
 ## Wat heb ik geleerd?
+Van Vasilis geleerd dat margin: auto; ervoor zorgt dat wat je aangeeft in het midden komt te staan. De ruimte die er is wordt eerlijk verdeeld zeg maar.
+
+van Victor nieuwe code geleerd.
+Als je de bovenkant niet klein wil hebben (zoals het midden) dan geef je het grid-column aan met 1 / -1.
+Hier begint het bij kolom 1 en eindigt bij -1 (soort loepje)
+
+* betekent alles in code
+.grid > * {} Betekent alles dat in het .grid staat
+
+Met minmax kan je aangeven hoeveel de minimale grootte en maximale grootte mag zijn.
 
 ## Wat ga ik morgen doen?
+Morgen weer css lessen
 
 # Weekoverzicht
 ## Volledige bronnenlijst:
+mdn - The Checkbox Role (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/checkbox_role" alt="The Checkbox Role">
+mdn - The Radio Role (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/radio_role" alt="The Radio Role">
+mdn - input type="checkbox" (2026). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/checkbox" alt="<input type=checkbox>">
+mdn - input type-"radio" (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio" alt="<input type=radio>">
+mdn - The Label element (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/label" alt="The Label element">

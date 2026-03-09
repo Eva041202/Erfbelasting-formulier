@@ -193,3 +193,33 @@ mdn - The Radio Role (2025). Geraadpleegd op 02-03-2026 van <a href="https://dev
 mdn - input type="checkbox" (2026). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/checkbox" alt="<input type=checkbox>">
 mdn - input type-"radio" (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio" alt="<input type=radio>">
 mdn - The Label element (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/label" alt="The Label element">
+mdn (2003). <a href="https://developer.mozilla.org/en-US/" alt="mdn">
+https://www.w3schools.com/ (1998) <a href="https://www.w3schools.com/">
+
+# Dag 05 (09-03-2026)
+## Checkout
+Besproken met 
+
+## Wat heb ik gedaan vandaag?
+Vanochtend vertelde Rijk over zichzelf en zijn bedrijf Directus.
+
+Workshop validatie gevolgd van Vasilis.
+Ik vond dit veel beter te volgen dan de workshop van vorige week.
+Ik ga dit proberen toe te passen in mijn website. Ik moet zelf wel meer gaan verdiepen in JavaScript.
+
+De fieldsets gestyled met een achtergrondkleur en box-shadow
+
+De JavaScript doet niet helemaal wat ik wil dat het doet.
+Vasilis heb ik om hulp gevraagd. de addEventListener
+
+## Hoe lang duurde het?
+Van +/- 09:10 tot
+
+## Wat heb ik geleerd?
+
+
+## Wat ga ik morgen doen?
+
+
+# Weekoverzicht
+## Volledige bronnenlijst:

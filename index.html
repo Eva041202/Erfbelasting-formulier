@@ -21,12 +21,13 @@
 
 
         <form class="formulier">
-            <fieldset>
+            <fieldset class="naarVoren">
                 <legend>Persoonsgegevens overledene</legend>
                     <div class="labels">
                         <label>Voorletter(s)
-                            <input type="text">
+                            <input type="text" required>
                         </label>
+                        <p class="error" id="error-id">Dit veld is incorrect</p>
 
                         <label>Tussenvoegsel(s)
                             <input type="text">
@@ -46,72 +47,72 @@
                     </div>
             </fieldset>
 <!-- MARK: Verschijnende vragen -->
-            <fieldset>
+            <fieldset class="naarVoren">
                 <legend>Gehuwd</legend>
                     <p>Was de overledene getrouwd of had de overledene een geregistreerde partner op het moment van overlijden?</p>
 
                     <label>
-                        <input type="radio" name="partner" value="ja">
                         Ja
+                        <input type="radio" name="partner" value="ja">
                     </label>
 
                     <label>
-                        <input type="radio" name="partner" value="nee">
                         Nee
+                        <input type="radio" name="partner" value="nee">
                     </label>
 
                     <div class="ja-vragen">
                         <p>Hadden de overledene en diens echtgenoot of geregistreerde partner huwelijks op partnerschapsvoorwaarden laten vastleggen in een notariële akte?</p>
                         <input type="radio" name="partner2">
-                        Ja (stuur een kopie van de akte mee met de aangifte)
+                        <p>Ja</p>
 
+                        <p>Nee (ga verder naar 1C)</p>
                         <input type="radio" name="partner2">
-                        Nee (ga verder naar 1C)
 
                         <p>Hadden de overledene en diens partner een finaal verrekenbeding?</p>
                         <input type="radio" name="partner3">
-                        Ja
+                        <p>Ja</p>
 
                         <input type="radio" name="partner3">
-                        Nee
+                        <p>Nee</p>
 
                         <p>Datum huwelijkse of partnerschapsvoorwaarden</p>
                             <input type="number">
                     </div>
             </fieldset>
 
-            <fieldset>
+            <fieldset class="naarVoren">
                 <legend>Kinderen</legend>
                     <p>Had de overledene kinderen?</p>
 
                     <label>
                         <input type="radio" name="kinderen" value="ja">
-                        Ja
+                        <p>Ja</p>
                     </label>
 
                     <label>
                         <input type="radio" name="kinderen" value="nee">
-                        Nee (ga verder naar 1D)
+                        <p>Nee (ga verder naar 1D)</p>
                     </label>
 
                     <div class="ja-vragen">
                         <p>Is 1 van de kinderen eerder overleden dan de overledene voor wie u nu aangifte doet?</p>
                         <input type="radio" name="kinderen2">
-                        Ja
+                        <p>Ja</p>
 
                         <input type="radio" name="kinderen2">
-                        Nee (ga verder naar 1D)
+                        <p>Nee (ga verder naar 1D)</p>
 
                         <p>Had dit overleden kind zelf kinderen?</p>
                         <input type="radio" name="kinderen 3">
-                        Ja
+                        <p>Ja</p>
 
                         <input type="radio" name="kinderen3">
-                        Nee
+                        <p>Nee</p>
                     </div>
                 </fieldset>
 
-            <fieldset>
+            <fieldset class="naarVoren">
                 <legend>Testament</legend>
                     <p>Had de overledene een testament?</p>
                         <label>
@@ -167,6 +168,9 @@
             </div>
         
 </main>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
 

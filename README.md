@@ -210,15 +210,21 @@ Ik ga dit proberen toe te passen in mijn website. Ik moet zelf wel meer gaan ver
 De fieldsets gestyled met een achtergrondkleur en box-shadow
 
 De JavaScript doet niet helemaal wat ik wil dat het doet.
-Vasilis heb ik om hulp gevraagd. de addEventListener
+Vasilis heb ik om hulp gevraagd. de addEventListener stond op blur, waardoor ik op het veld bleef als ik naar de volgende wilde.
+Deze staat nu op input.
+Bij de if en else hebben we remove en add toegevoegd voor de valid en niet valid.
+
+De radio buttons stonden steeds onder de ja en nee antwoorden.
+Dit heb ik naast elkaar gekregen door de input type= etc in de p te zetten
 
 ## Hoe lang duurde het?
-Van +/- 09:10 tot
+Van +/- 09:10 tot 16:15
 
 ## Wat heb ik geleerd?
-
+Nieuwe code in JavaScript geleerd, maar dit vind ik nog erg lastig
 
 ## Wat ga ik morgen doen?
+Op de 3e pagina werken de verschijnende vragen nog niet helemaal zoals ik wil. Dit wil ik aanpakken.
 
 
 # Weekoverzicht

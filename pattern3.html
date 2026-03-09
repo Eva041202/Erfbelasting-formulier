@@ -22,18 +22,49 @@
         <fieldset class="naarVoren">
             <legend>Voor wie u aangifte doet</legend>
                 <p>Ik ben executeur en doe aangifte voor alle personen en/of instellingen die iets krijgen uit de nalatenschap (verkrijgers).</p>
-                <label>Ja
-                    <input type="radio" name="aangifte">
-                    <!-- info die erbij moet: Geef aan voor hoeveel verkrijgers u aangifte doet. Bent u zelf ook verkrijger? Tel uzelf dan ook mee. -->
-                    <input type="number">
+                <label>
+                    Ja
+                    <input type="radio" name="aangifte" value="ja">
                 </label>
 
+                <label>
+                    Nee
+                    <input type="radio" name="aangifte" value="nee">
+                </label>
+
+                <div class="ja-vragen">
+                    <p>Geef aan voor hoeveel verkrijgers u aangifte doet. Bent u zelf ook verkrijger? Tel uzelf dan ook mee.</p>
+                    <input type="number">
+                </div>
+
+                <div class="nee-vragen">
+                    <p class="kleiner">Als er geen executeur is kruis aan welke situatie voor u geldt.</p>
+
+                    <p>Ik ben erfgenaam en ben gemachtigd om aangifte te doen voor meerdere personen en/of instellingen die iets krijgen uit de nalatenschap (verkrijgers)</p>
+                    <p>Ja</p>
+                    <p class="kleiner">Geef aan voor hoeveel verkrijgers u aangifte doet. Tel uzelf ook mee.</p>
+                        <label>
+                            <input type="number">
+                        </label>
+                </div>
+        </fieldset>
+    </form>
+    <!-- MARK: knoppen-->
+        <div class="volgendeVragen">
+            <h2>Volgende vragen</h2>
+        </div>
+
+        <div class="knoppen">
+            <div class="knop1">
+                <a href="index.html" class="knop1">1</a>
+            </div>
+
+            <div class="knop2">
+                <a href="pattern2.html" class="knop2">2</a>
+            </div>
+
+            <div class="knop3">
+                <a href="pattern3.html" class="knop3">3</a>
+            </div>
 </body>
-
-    <div class="knoppen">
-        <a href="index.html" class="knop1">1</a>
-        <a href="pattern2.html" class="knop2">2</a>
-        <a href="pattern3.html" class="knop3">3</a>
-    </div>
-
 </html>

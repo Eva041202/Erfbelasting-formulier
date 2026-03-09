@@ -57,6 +57,7 @@ label:has(input:invalid) + .error {
 label, p {
     font-family: NS Sans, Verdana, sans-serif;
     color: #003082;
+    font-size: medium;
 }
 
 body {
@@ -92,6 +93,15 @@ label:has(input[value="ja"]:checked) ~ .ja-vragen {
     border-radius: 50%;
 }
 
+.nee-vragen {
+    display: none;
+}
+
+label:has(input[value="nee"]:checked) ~ .nee-vragen {
+    display: block;
+    border-radius: 50%;
+}
+
     /*MARK - Verschijnende vragen 2 */
 .in-vragen {
     display:none;
@@ -109,6 +119,16 @@ label:has(input[value="inNederland"]:checked) ~ .in-vragen {
 label:has(input[value="uitNederland"]:checked) ~ .uit-vragen {
     display: block;
     border-radius: 50%;
+}
+
+/* MARK - minder ruimte tussen de vraag en het invoerveld */
+input {
+    margin-bottom: -.5em;
+}
+
+/* MARK - sommige vragen tekst iets kleiner */
+.kleiner {
+    font-size: small;
 }
 
 /*MARK - knoppen onderin */

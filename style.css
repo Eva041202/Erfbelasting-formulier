@@ -83,6 +83,27 @@ form {
     margin: auto;
 }
 
+/* MARK - info buttons */
+fieldset {
+    position: relative;
+}
+
+.info1 summary {
+    list-style: none;
+    color: #FFC917;
+    font-weight: bold;
+    font-size: large;
+    position: absolute;
+    top: 0;
+    right: 1em;
+    cursor: pointer;
+}
+
+.infoKleur {
+    color: #1c83c7;
+    font-size: small;
+}
+
     /*MARK- Verschijnende vragen */
 .ja-vragen {
     display:none;
@@ -100,6 +121,14 @@ label:has(input[value="ja"]:checked) ~ .ja-vragen {
 label:has(input[value="nee"]:checked) ~ .nee-vragen {
     display: block;
     border-radius: 50%;
+}
+
+.akte-upload {
+    display: none;
+}
+
+.ja-vragen:has(input[value="ja"]:checked) .akte-upload {
+    display: block;
 }
 
     /*MARK - Verschijnende vragen 2 */
@@ -120,6 +149,9 @@ label:has(input[value="uitNederland"]:checked) ~ .uit-vragen {
     display: block;
     border-radius: 50%;
 }
+
+/* MARK - verschijnende info */
+vhvhvgghggv
 
 /* MARK - minder ruimte tussen de vraag en het invoerveld */
 input {

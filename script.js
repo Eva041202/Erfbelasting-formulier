@@ -6,7 +6,7 @@ input.addEventListener('input', (event) => {
     console.log(event)
 
     if (!input.validity.valid){
-        error.textContent ='Vul een correcte naam in'
+        error.textContent ='Vul de juiste voorletters in'
         input.setAttribute('aria-describedby', 'error-id')
         //input.focus()
         input.classList.remove('valid');
@@ -21,14 +21,33 @@ input.addEventListener('input', (event) => {
 })
 
 
-form.addEventListener('submit', (event) => {
-    event.preventDefault()
+// const landen = {
+//     "Afghanistan": "AFG",
+//     "Åland": "ALA",
+//     "Albania": "ALB"
+// };
 
-    if (!input.validity.valid){
-        error.textContent ='Vul een correcte naam in'
-    input.setAttribute('aria-describedby', 'error-id')
-        input.focus()
-    } else {
-    input.removeAttribute('aria-describedby')
-    }
-})
+// const landInput = document.querySelector("#land");
+// const codeInput = document.querySelector("#landcode");
+
+// landInput.addEventListener("input", function() {
+
+//     const land = landInput.value;
+
+//     if (landen[land]) {
+//        codeInput.value = landen[land]:
+//     }
+// });
+
+
+// form.addEventListener('submit', (event) => {
+//     event.preventDefault()
+
+//     if (!input.validity.valid){
+//         error.textContent ='Vul een correcte naam in'
+//     input.setAttribute('aria-describedby', 'error-id')
+//         input.focus()
+//     } else {
+//     input.removeAttribute('aria-describedby')
+//     }
+// })

@@ -6,6 +6,7 @@
     <title>Erfbelastingsformulier (schoolproject)</title>
     <link rel="stylesheet" href=style.css>
     <link rel="stylesheet" href="https://static-ns-nl-data.fep-p.cla.ns.nl/apps/nessie/fonts/1.0.1/fonts.css" />
+    <link rel="icon" type="media/png" href="./media/logo.png">
 </head>
 <body>
     <!-- MARK: bovenaan de pagina-->
@@ -51,6 +52,22 @@
                 <legend>Gehuwd</legend>
                     <p>Was de overledene getrouwd of had de overledene een geregistreerde partner op het moment van overlijden?</p>
 
+                    <details class="info1">
+                        <summary>i</summary>
+                        <p class="infoKleur">
+                            Is er geen testament? En had de overledene een echtgenoot of geregistreerde partner en kinderen? Dan gaat de hele erfenis naar de echtgenoot of geregistreerde partner.<br />
+                            De kinderen krijgen hun deel van de erfenis nog niet, maar krijgen een vordering op de andere ouder. Dat wil zeggen dat die ouder een schuld heeft aan de kinderen.<br />
+                            De kinderen moeten wel aangifte doen voor de erfbelasting.
+                        </p>
+                        <hr />
+                        <p class="infoKleur">
+                            <b>Huwelijkse voorwaarden of partnerschapsvoorwaarden</b> <br />
+                            Echtgenoten en geregistreerde partners kunnen afspraken maken over huwelijkse voorwaarden of partnerschapsvoorwaarden.<br />
+                            Daarin regelen zij welke bezittingen en schulden van hen allebei zijn en welke bezittingen en schulden van 1 van hen zijn.<br />
+                            Huwelijkse voorwaarden of partnerschapsvoorwaarden zijn altijd in een notariële akte vastgelegd.
+                        </p>
+                    </details>
+
                     <label>
                         <input type="radio" name="partner" value="ja">
                         Ja
@@ -65,12 +82,19 @@
                         <p>Hadden de overledene en diens echtgenoot of geregistreerde partner huwelijks op partnerschapsvoorwaarden laten vastleggen in een notariële akte?</p>
 
                         <p>
-                            <input type="radio" name="partner2">
+                            <input type="radio" name="partner2" value="ja">
                             Ja
                         </p>
 
+                        <div class="akte-upload">
+                            <p class="infoKleur">
+                                Stuur een kopie van de akte mee met de aangifte.
+                            </p>
+                            <input type="file">
+                        </div>
+
                         <p>
-                            <input type="radio" name="partner2">
+                            <input type="radio" name="partner2" value="nee">
                             Nee (ga verder naar 1C)
                         </p>
 
@@ -201,5 +225,3 @@
 
 </body>
 </html>
-
-<!-- datalist voor landcode -->

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erfbelastingsformulier vragen 2</title>
     <link rel="stylesheet" href=style.css>
+    <link rel="stylesheet" href="https://static-ns-nl-data.fep-p.cla.ns.nl/apps/nessie/fonts/1.0.1/fonts.css" />
 </head>
 <body>
 
@@ -58,7 +59,7 @@
                     <label>
                         <input type="radio" value="inNederland">
                         Adres in Nederland
-                    </label>
+                    </label> <br />
 
                     <label>
                         <input type="radio" value="uitNederland">
@@ -96,7 +97,99 @@
                         <input type="text">
 
                         <p>Landcode</p>
-                        <input type="number">
+                            <input list="landcode" name="Landcode" />
+                            <datalist id="landcode">
+                                <option value="AFG">Afghanistan</option>
+                                <option value="ALA">Aland</option>
+                                <option value="ALB">Albanië</option>
+                                <option value="DZA">Algerije</option>
+                                <option value="VIR">Amerikaanse Maagdeneilanden</option>
+                                <option value="ASM">Amerikaans-Samoa</option>
+                                <option value="AND">Andorra</option>
+                                <option value="AGO">Angola</option>
+                                <option value="AIA">Anguilla</option>
+                                <option value="ATA">Antarctica</option>
+                                <option value="ATG">Antigua en Barbuda</option>
+                                <option value="ARG">Argentinië</option>
+                                <option value="ARM">Armenië</option>
+                                <option value="ABW">Aruba</option>
+                                <option value="AUS">Australië</option>
+                                <option value="AZE">Azerbeidzjan</option>
+                                <option value="BHS">Bahama's</option>
+                                <option value="BHR">Bahrein</option>
+                                <option value="BGD">Bangladesh</option>
+                                <option value="BRB">Barbados</option>
+                                <option value="BLR">Belarus (Wit-Rusland)</option>
+                                <option value="BEL">België</option>
+                                <option value="BLZ">Belize</option>
+                                <option value="BEN">Benin</option>
+                                <option value="BMU">Bermuda</option>
+                                <option value="BTN">Bhutan</option>
+                                <option value="BOL">Bolivia</option>
+                                <option value="BES">Bonaire, St. Eustatius en Saba</option>
+                                <option value="BIH">Bosnië en Herzegovina</option>
+                                <option value="BWA">Botswana</option>
+                                <option value="BVT">Bouveteiland</option>
+                                <option value="BRA">Brazilië</option>
+                                <option value="VGB">Britse Maagdeneilanden</option>
+                                <option value="IOT">Brits Indische Oceaanterritorium</option>
+                                <option value="BRN">Brunei</option>
+                                <option value="BGR">Bulgarije</option>
+                                <option value="BFA">Burkina Faso</option>
+                                <option value="BDI">Burundi</option>
+                                <option value="KHM">Cambodja</option>
+                                <option value="CAN">Canada</option>
+                                <option value="CAF">Centraal-Afrikaanse Republiek</option>
+                                <option value="CHL">Chili</option>
+                                <option value="CHN">China</option>
+                                <option value="CXR">Christmaseiland</option>
+                                <option value="CCK">Cocoseilanden</option>
+                                <option value="COL">Colombia</option>
+                                <option value="COM">Comoren</option>
+                                <option value="COG">Congo-Brazzaville</option>
+                                <option value="COD">Congo-Kinshasa</option>
+                                <option value="COK">Cookeilanden</option>
+                                <option value="CRI">Costa Rica</option>
+                                <option value="CUB">Cuba</option>
+                                <option value="CUW">Curaçao</option>
+                                <option value="CYP">Cyprus</option>
+                                <option value="DNK">Denemarken</option>
+                                <option value="DJI">Djibouti</option>
+                                <option value="DMA">Dominica</option>
+                                <option value="DOM">Dominicaanse Republiek</option>
+                                <option value="DEU">Duitsland</option>
+                                <option value="ECU">Ecuador</option>
+                                <option value="EGY">Egypte</option>
+                                <option value="SLV">El Salvador</option>
+                                <option value="GNQ">Equatoriaal-Guinea</option>
+                                <option value="ERI">Eritrea</option>
+                                <option value="EST">Estland</option>
+                                <option value="ETH">Ethiopië</option>
+                                <option value="FRO">Faeröer</option>
+                                <option value="FLK">Falklandeilanden</option>
+                                <option value="FJI">Fiji</option>
+                                <option value="PHL">Filipijnen</option>
+                                <option value="FIN">Finland</option>
+                                <option value="FRA">Frankrijk</option>
+                                <option value="ATF">Franse Zuidelijke en Antarctische gebieden</option>
+                                <option value="GUF">Frans-Guyana</option>
+                                <option value="PYF">Frans-Polynesië</option>
+                                <option value="GAB">Gabon</option>
+                                <option value="GMB">Gambia</option>
+                                <option value="GEO">Georgië</option>
+                                <option value="GHA">Ghana</option>
+                                <option value="GIB">Gibraltar</option>
+                                <option value="GRD">Grenada</option>
+                                <option value="GRC">Griekenland</option>
+                                <option value="GRL">Groenland</option>
+                                <option value="GLP">Guadeloupe</option>
+                                <option value="GUM">Guam</option>
+                                <option value="GTM">Guatemala</option>
+                                <option value="GGY">Guernsey</option>
+                                <option value="GIN">Guinee</option>
+                                <option value="GNB">Guinee-Bissau</option>
+                                <option value="GUY">Guyana</option>
+                            </datalist>
 
                         <p>Telefoonnumer</p>
                         <input type="number">

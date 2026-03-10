@@ -194,11 +194,11 @@ mdn - input type="checkbox" (2026). Geraadpleegd op 02-03-2026 van <a href="http
 mdn - input type-"radio" (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio" alt="<input type=radio>">
 mdn - The Label element (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/label" alt="The Label element">
 mdn (2003). <a href="https://developer.mozilla.org/en-US/" alt="mdn">
-https://www.w3schools.com/ (1998) <a href="https://www.w3schools.com/">
+w3schools (1998) <a href="https://www.w3schools.com/">
 
 # Dag 05 (09-03-2026)
 ## Checkout
-Besproken met 
+Besproken met Alex.
 
 ## Wat heb ik gedaan vandaag?
 Vanochtend vertelde Rijk over zichzelf en zijn bedrijf Directus.
@@ -226,6 +226,43 @@ Nieuwe code in JavaScript geleerd, maar dit vind ik nog erg lastig
 ## Wat ga ik morgen doen?
 Op de 3e pagina werken de verschijnende vragen nog niet helemaal zoals ik wil. Dit wil ik aanpakken.
 
+De video voor de weekly geek staat al langer op Brightspace en heb ik al gezien.
+Om het op te frissen heb ik het nog een keer bekeken.
+De video is makkelijk te volgen en goed te begrijpen.
+
+# Dag 05 (10-03-2026)
+## Checkout
+Besproken met Aya A.
+
+## Wat heb ik gedaan vandaag?
+Ik kwam er achter dat ik alleen op de eerste pagina in de html de link heb voor de ns-font. Logisch dat de andere pagina's dan het 2e font pakken (Verdana).
+Ook op de andere pagina's heb ik de link gekoppeld en nu is het ns-font overal.
+
+De website heb ik een logo gegeven.
+
+Ik heb een informatie button gemaakt met details.
+
+Voor de landcode wil ik datalist gebruiken. Maar om alle landen in te typen krijgt de gebruiker wel een hele lang lijst, dat nog niet overzichtelijk is.
+Ik wil dat als de gebruiker zijn land in type (of de eerste paar letters van het land) de landcode verschijnt voor de gebruiker.
+Ik heb opgezocht hoe ik dit kan doen en dat kan of met JavaScript of met de select tag in html.
+Ik wil de gebruiker kunnen laten typen, dus heb ik Javascript nodig.
+
+Ik heb wat in Javascript kunnen doen. Ik vraag wel chatgpt om bepaalde begrippen te kunnen uitleggen in Jip-en-Janneke-taal. Dit werkt best goed voor mij.
+Daarnaast maak ik ook gebruik van de mdn en w3schools website.
+
+## Hoe lang duurde het
+van +/- 09:10 tot 17:00
+
+## Wat heb ik geleerd?
+Veel nieuws geleerd in JavaScript.
+Geleerd hoe je details kan stijlen in css.
+
+## Wat ga ik morgen doen?
+Morgen zijn er weer css lessen
 
 # Weekoverzicht
 ## Volledige bronnenlijst:
+What happened to text inputs? (2022). Geraadpleegd op 09-03-2026 van <a href="https://briefs.video/videos/what-happened-to-text-inputs/">
+mdn (2003). <a href="https://developer.mozilla.org/en-US/" alt="mdn">
+w3schools (1998) <a href="https://www.w3schools.com/">
+shutterstock (2003). Geraadpleegd op 10-03-2026 van <a href="https://www.shutterstock.com/nl/image-vector/information-sign-symbol-info-icon-isolated-1659040048">

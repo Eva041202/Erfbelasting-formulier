@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erfbelastingsformulier (schoolproject)</title>
-    <link rel="stylesheet" href=style.css>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://static-ns-nl-data.fep-p.cla.ns.nl/apps/nessie/fonts/1.0.1/fonts.css" />
     <link rel="icon" type="media/png" href="./media/logo.png">
 </head>
@@ -26,21 +26,23 @@
                 <legend>Persoonsgegevens overledene</legend>
                     <div class="labels">
                         <label>Voorletter(s)
-                            <input type="text" required>
+                            <input type="text" required data-error="Vul uw voorletter in">
                         </label>
                         <p class="error" id="error-id"></p>
 
                         <label>Tussenvoegsel(s)
-                            <input type="text">
+                            <input type="text" >
                         </label>
 
                         <label>Achternaam
-                            <input type="text">
+                            <input type="text" required data-error="Vul uw achternaam in">
                         </label>
+                        <p class="error" id="error-id1"></p>
 
                         <label>BSN-nummer
-                            <input type="number">
+                            <input type="number" required data-error="Een BSN-nummer bestaat uit 8 of 9 cijfers">
                         </label>
+                        <p class="error"></p>
 
                         <label>Overlijdensdatum
                             <input type="date">
@@ -59,7 +61,9 @@
                             De kinderen krijgen hun deel van de erfenis nog niet, maar krijgen een vordering op de andere ouder. Dat wil zeggen dat die ouder een schuld heeft aan de kinderen.<br />
                             De kinderen moeten wel aangifte doen voor de erfbelasting.
                         </p>
+
                         <hr />
+
                         <p class="infoKleur">
                             <b>Huwelijkse voorwaarden of partnerschapsvoorwaarden</b> <br />
                             Echtgenoten en geregistreerde partners kunnen afspraken maken over huwelijkse voorwaarden of partnerschapsvoorwaarden.<br />
@@ -119,18 +123,54 @@
                 <legend>Kinderen</legend>
                     <p>Had de overledene kinderen?</p>
 
+                    <details class="info1">
+                        <summary>i</summary>
+                        <pre class="infoKleur">
+Het gaat hier om kinderen die:
+    – door geboorte of erkenning eigen kind van de overledene zijn.
+    – door de overledene zijn geadopteerd.
+                            
+Het kan zijn dat een (klein)kind van overledene nog niet geboren is, maar waarvan de moeder
+zwanger was op het moment van overlijden.
+Voor dit kind kunt u pas aangifte erfbelasting doen als het geboren is. U kruist dan de
+relatie ‘(klein)kind’ aan.
+U geeft aan dat er een ongeboren kind is door ons een brief te sturen met daarin uw naam,
+bsn en de overlijdensdatum van de overledene.
+U kunt de briefsturen naar:
+    Belastingdienst/Kantoor Eindhoven
+    Antwoordnummer 14660
+    5600 WK Eindhoven
+
+De andere verkrijgers moeten wel binnen 8 maanden aangifte doen.
+
+<b>Let op!</b>
+Het gaat hier niet om pleegkinderen of stiefkinderen.
+                        </pre>
+
+                        <hr />
+
+                        <pre class="infoKleur">
+<b>Is 1 van deze kinderen eerder overleden dan de overleden ouder en had dit overleden kind
+zelf kinderen?</b>
+De echtgenoot of geregistreerde partner en de kinderen van de overledene komen als 1e in
+aanmerking om van de overledene te erven.
+Maar als 1 van de kinderen al eerder is overleden, kan diens deel van de erfenis naar
+diens kinderen gaan. Dit heet plaatsvervulling.
+Het gaat dan dus om de kleinkinderen van de overledene voor wie u nu aangifte doet.
+In dat geval geeft u in de aangifte de kleinkinderen van de overledene op als verkrijger.
+                        </pre>
+                            
+                        </p>
+                    </details>
+
                     <label>
-                        <p>
                             <input type="radio" name="kinderen" value="ja">
                             Ja
-                        </p>
                     </label>
 
                     <label>
-                        <p>
                             <input type="radio" name="kinderen" value="nee">
                             Nee (ga verder naar 1D)
-                        </p>
                     </label>
 
                     <div class="ja-vragen">
@@ -149,7 +189,7 @@
                         <p>Had dit overleden kind zelf kinderen?</p>
 
                         <p>
-                            <input type="radio" name="kinderen 3">
+                            <input type="radio" name="kinderen3">
                             Ja
                         </p>
 
@@ -163,6 +203,27 @@
             <fieldset class="naarVoren">
                 <legend>Testament</legend>
                     <p>Had de overledene een testament?</p>
+
+                    <details class="info1">
+                        <summary>i</summary>
+                        <p class="infoKleur">
+                            <!--MARK: bron voor hyperlink: https://stackoverflow.com/questions/6722467/how-do-i-remove-the-default-link-color-of-the-html-hyperlink-a-tag-->
+                            <b>Protocolnummer van een notaris in functie</b> <br />
+                            Het nummer van een notaris in functie vindt u op <ins><a style="text-decoration:none; color:inherit;" href="https://registernotariaat.nl/" target="_blank" alt="register_notariaat">registernotariaat.nl</a></ins> in het Register notariaat.
+                            Het actieve protocolnummer is dat waar geen ‘Datum eind’ bij staat.
+                            Hebt u ook een adres nodig? Ga dan naar <ins><a style="text-decoration:none; color:inherit;" href="https://www.notaris.nl/" target="_blank" alt="notaris">notaris.nl</a></ins> en vul de plaatsnaam in bij ‘Zoek een notaris'. U ziet dan van elk kantoor in de regio het adres.
+                        </p>
+
+                        <hr />
+
+                        <p class="infoKleur">
+                            <b>Protocolnummer van een notaris die gestopt is</b> <br />
+                            De opvolger van een notaris die gestopt is, vindt u op <ins><a style="text-decoration:none; color:inherit;" href="https://www.notaris.nl/" target="_blank" alt="notaris">notaris.nl</a></ins> in het opvolgersarchief.
+                            Daar ziet u een naam, kantoor en adres. Die gegevens gebruikt u vervolgens om het protocolnummer te zoeken op <ins><a style="text-decoration:none; color:inherit;" href="https://registernotariaat.nl/" target="_blank" alt="register_notariaat">registernotariaat.nl</a></ins> in het Register notariaat.
+                            Staan er meerdere nummers en komt u er niet uit? Neem dan contact op met het notariskantoor.
+                        </p>
+                    </details>
+
                         <label>
                             <p>
                                 <input type="radio" name="testament" value="ja">
@@ -194,7 +255,7 @@
                         <input type="text">
 
                         <p>Datum van het testament of van de laatste wijziging</p>
-                        <input type="number">
+                        <input type="date">
 
                         <p>BSN overledene</p>
                         <input type="number">

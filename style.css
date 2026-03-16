@@ -60,6 +60,11 @@ label, p {
     font-size: medium;
 }
 
+h2 {
+    font-family: NS Sans, Verdana, sans-serif;
+    color: #003082;
+}
+
 body {
     background-color: #E6E6E9;
     margin: 0px;
@@ -111,8 +116,9 @@ fieldset {
 
 label:has(input[value="ja"]:checked) ~ .ja-vragen {
     display: block;
-    border-radius: 50%;
+    border-radius: 5px;
 }
+
 
 .nee-vragen {
     display: none;
@@ -123,11 +129,21 @@ label:has(input[value="nee"]:checked) ~ .nee-vragen {
     border-radius: 50%;
 }
 
+
 .akte-upload {
     display: none;
 }
 
 .ja-vragen:has(input[value="ja"]:checked) .akte-upload {
+    display: block;
+}
+
+
+.geenExecuteur {
+    display: none;
+}
+
+.nee-vragen:has(input[value="ja"]:checked) .geenExecuteur {
     display: block;
 }
 
@@ -149,9 +165,6 @@ label:has(input[value="uitNederland"]:checked) ~ .uit-vragen {
     display: block;
     border-radius: 50%;
 }
-
-/* MARK - verschijnende info */
-vhvhvgghggv
 
 /* MARK - minder ruimte tussen de vraag en het invoerveld */
 input {

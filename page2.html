@@ -22,6 +22,29 @@
     <form>
         <fieldset class="naarVoren">
             <legend>Gegevens gemachtigde</legend>
+
+                    <details class="info1">
+                        <summary>i</summary>
+                        <p class="infoKleur">
+                            Vul de gegevens in van de gemachtigde. De gemachtigde is degene die namens zichzelf of meerdere verkrijgers aangifte doet. <br />
+                            Is er een executeur? Vul hier dan de gegevens van de executeur in. 
+                        </p>
+
+                        <hr />
+                        
+                        <pre class="infoKleur">
+<b>Bsn</b>
+Het bsn staat op 1 van de volgende documenten:
+    – Nederlands identiteitsbewijs, zoals een paspoort, identiteitskaart of rijbewijs
+    – een aanslag inkomstenbelasting of een aangiftebrief
+    – Nederlandse loonstrook, jaaropgaaf, zorgpas of zorgpolis
+
+<b>Beconnummer</b>
+Elke belastingconsulent heeft een beconnummer.
+U vindt het beconnummer bijvoorbeeld op de factuur
+                        </pre>
+                    </details>
+
                 <div class="labels">
                     <label>BSN/RSIN gemachtigde
                         <input type="number">
@@ -39,6 +62,17 @@
 
         <fieldset class="naarVoren">
             <legend>Gegevens gemachtigde</legend>
+
+                <details class="info1">
+                    <summary>i</summary>
+                    <p class="infoKleur">
+                        <b>Landcode</b> <br />
+                        Als u een buitenlands adres invult, moet u ook een landcode invullen.
+                        Deze landcode bestaat altijd uit 3 letters.
+                        Staat het land niet in de lijst? Vermeld dan als landcode XXX
+                    </p>
+                </details>
+
                 <div class="labels">
                     <label>Voorletter(s)
                         <input type="text">
@@ -96,9 +130,11 @@
                         <p>Plaats</p>
                         <input type="text">
 
+                        <!--MARK: Landcodes-->
                         <p>Landcode</p>
                             <input list="landcode" name="Landcode" />
                             <datalist id="landcode">
+                                <!--MARK: A.-->
                                 <option value="AFG">Afghanistan</option>
                                 <option value="ALA">Aland</option>
                                 <option value="ALB">Albanië</option>
@@ -115,6 +151,7 @@
                                 <option value="ABW">Aruba</option>
                                 <option value="AUS">Australië</option>
                                 <option value="AZE">Azerbeidzjan</option>
+                                <!--MARK: B.-->
                                 <option value="BHS">Bahama's</option>
                                 <option value="BHR">Bahrein</option>
                                 <option value="BGD">Bangladesh</option>
@@ -137,6 +174,7 @@
                                 <option value="BGR">Bulgarije</option>
                                 <option value="BFA">Burkina Faso</option>
                                 <option value="BDI">Burundi</option>
+                                <!--MARK: C.-->
                                 <option value="KHM">Cambodja</option>
                                 <option value="CAN">Canada</option>
                                 <option value="CAF">Centraal-Afrikaanse Republiek</option>
@@ -153,11 +191,13 @@
                                 <option value="CUB">Cuba</option>
                                 <option value="CUW">Curaçao</option>
                                 <option value="CYP">Cyprus</option>
+                                <!--MARK: D.-->
                                 <option value="DNK">Denemarken</option>
                                 <option value="DJI">Djibouti</option>
                                 <option value="DMA">Dominica</option>
                                 <option value="DOM">Dominicaanse Republiek</option>
                                 <option value="DEU">Duitsland</option>
+                                <!--MARK: E.-->
                                 <option value="ECU">Ecuador</option>
                                 <option value="EGY">Egypte</option>
                                 <option value="SLV">El Salvador</option>
@@ -165,6 +205,7 @@
                                 <option value="ERI">Eritrea</option>
                                 <option value="EST">Estland</option>
                                 <option value="ETH">Ethiopië</option>
+                                <!--MARK: F.-->
                                 <option value="FRO">Faeröer</option>
                                 <option value="FLK">Falklandeilanden</option>
                                 <option value="FJI">Fiji</option>
@@ -174,6 +215,7 @@
                                 <option value="ATF">Franse Zuidelijke en Antarctische gebieden</option>
                                 <option value="GUF">Frans-Guyana</option>
                                 <option value="PYF">Frans-Polynesië</option>
+                                <!--MARK: G.-->
                                 <option value="GAB">Gabon</option>
                                 <option value="GMB">Gambia</option>
                                 <option value="GEO">Georgië</option>
@@ -189,6 +231,181 @@
                                 <option value="GIN">Guinee</option>
                                 <option value="GNB">Guinee-Bissau</option>
                                 <option value="GUY">Guyana</option>
+                                <!--MARK: H.-->
+                                <option value="HTI">Haïti</option>
+                                <option value="HMD">Heard en McDonaldeilanden</option>
+                                <option value="HND">Honduras</option>
+                                <option value="HUN">Hongarije</option>
+                                <option value="HKG">Hongkong</option>
+                                <!--MARK: I.-->
+                                <option value="IRL">Ierland</option>
+                                <option value="ISL">Ijsland</option>
+                                <option value="IND">India</option>
+                                <option value="IDN">Indonesië</option>
+                                <option value="IRQ">Irak</option>
+                                <option value="IRN">Iran</option>
+                                <option value="ITA">Italië</option>
+                                <option value="CIV">Ivoorkust</option>
+                                <!--MARK: J.-->
+                                <option value="JAM">Jamaica</option>
+                                <option value="JPN">Japan</option>
+                                <option value="YEM">Jemen</option>
+                                <option value="JEY">Jersey</option>
+                                <option value="JOR">Jordanië</option>
+                                <!--MARK: K.-->
+                                <option value="CYM">Kaaimaneilanden</option>
+                                <option value="CPV">Kaapverdië</option>
+                                <option value="CMR">Kameroen</option>
+                                <option value="KAZ">Kazachstan</option>
+                                <option value="KEN">Kenia</option>
+                                <option value="KGZ">Kirgizië</option>
+                                <option value="KIR">Kiribati</option>
+                                <option value="UMI">Kleine Pacifische eilanden van de Verendigde Staten</option>
+                                <option value="KWT">Koeweit</option>
+                                <option value="HRV">Kroatië</option>
+                                <!--MARK: L.-->
+                                <option value="LAO">Laos</option>
+                                <option value="LSO">Lesotho</option>
+                                <option value="LVA">Letland</option>
+                                <option value="LBN">Libanon</option>
+                                <option value="LBR">Liberia</option>
+                                <option value="LBY">Libië</option>
+                                <option value="LIE">Liechtenstein</option>
+                                <option value="LTI">Litouwen</option>
+                                <option value="LUX">Luxemburg</option>
+                                <!--MARK: M.-->
+                                <option value="MAC">Macau</option>
+                                <option value="MDG">Madagaskar</option>
+                                <option value="MWI">Malawi</option>
+                                <option value="MDV">Maldiven</option>
+                                <option value="MYS">Maleisië</option>
+                                <option value="MLI">Mali</option>
+                                <option value="MLT">Malta</option>
+                                <option value="IMN">Man (Schotland)</option>
+                                <option value="MAR">Marokko</option>
+                                <option value="MHL">Marshalleilanden</option>
+                                <option value="MTQ">Martinique</option>
+                                <option value="MRT">Mauritanië</option>
+                                <option value="MUS">Mauritius</option>
+                                <option value="MYT">Mayotte</option>
+                                <option value="MEX">Mexico</option>
+                                <option value="FSM">Micronesia</option>
+                                <option value="MDA">Moldavië</option>
+                                <option value="MCO">Monaco</option>
+                                <option value="MNG">Mongolië</option>
+                                <option value="MNE">Montenegro</option>
+                                <option value="MSR">Montserrat</option>
+                                <option value="MOZ">Mozambique</option>
+                                <option value="MMR">Myanmar</option>
+                                <!--MARK: N.-->
+                                <option value="NAM">Namibië</option>
+                                <option value="NRU">Nauru</option>
+                                <option value="NLD">Nederland</option>
+                                <option value="NPL">Nepal</option>
+                                <option value="NIC">Nicaragua</option>
+                                <option value="NCL">Nieuw-Caledonië</option>
+                                <option value="NZL">Nieuw-Zeeland</option>
+                                <option value="NER">Niger</option>
+                                <option value="NGA">Nigeria</option>
+                                <option value="NIU">Niue</option>
+                                <option value="MKD">Noord-Macedonië</option>
+                                <option value="MNP">Noordelijke Marianen</option>
+                                <option value="PRK">Noord-Korea</option>
+                                <option value="NOR">Noorwegen</option>
+                                <option value="NFK">Norfolk</option>
+                                <!--MARK: O.-->
+                                <option value="UGA">Oeganda</option>
+                                <option value="UKR">Oekraïne</option>
+                                <option value="UZB">Oezbekistan</option>
+                                <option value="OMN">Oman</option>
+                                <option value="AUT">Oostenrijk</option>
+                                <option value="TLS">Oost-Timor</option>
+                                <!--MARK: P.-->
+                                <option value="PAK">Pakistan</option>
+                                <option value="PLW">Palau</option>
+                                <option value="PSE">Palestina</option>
+                                <option value="PAN">Panama</option>
+                                <option value="PNG">Papoea-Nieuw-Guinea</option>
+                                <option value="PRY">Paraguay</option>
+                                <option value="PER">Peru</option>
+                                <option value="PCN">Pitcairneilanden</option>
+                                <option value="POL">Polen</option>
+                                <option value="PRT">Portugal</option>
+                                <option value="PRI">Puerto Rico</option>
+                                <!--MARK: Q.-->
+                                <option value="QAT">Qatar</option>
+                                <!--MARK: R.-->
+                                <option value="REU">Réunion</option>
+                                <option value="ROU">Roemenië</option>
+                                <option value="RUS">Rusland</option>
+                                <option value="RWA">Rwanda</option>
+                                <!--MARK: S.-->
+                                <option value="BLM">Saint-Barthélemy</option>
+                                <option value="KNA">Saint Kitts en Nevis</option>
+                                <option value="LCA">Saint Lucia</option>
+                                <option value="SPM">Saint-Pierre en Miquelon</option>
+                                <option value="VCT">Saint Vincent en de Grenadines</option>
+                                <option value="SLB">Salomonseilanden</option>
+                                <option value="WSM">Samoa</option>
+                                <option value="SMR">San Marino</option>
+                                <option value="SAU">Saoedi-Arabië</option>
+                                <option value="STP">Sao Tomé en Principe</option>
+                                <option value="SEN">Senegal</option>
+                                <option value="SRB">Servië</option>
+                                <option value="SYC">Sychellen</option>
+                                <option value="SLE">Sierra Leone</option>
+                                <option value="SGP">Singapore</option>
+                                <option value="SHN">Sint-Helena, Ascension en Tristan da Cunha</option>
+                                <option value="MAF">Sint-Maarten</option>
+                                <option value="SXM">Sint Maarten</option>
+                                <option value="SVN">Slovenië</option>
+                                <option value="SVK">Slowakije</option>
+                                <option value="SDN">Soedan</option>
+                                <option value="SOM">Somalië</option>
+                                <option value="ESP">Spanje</option>
+                                <option value="SIM">Spitsbergen en Jan Mayen</option>
+                                <option value="LKA">Sri Lanka</option>
+                                <option value="SUR">Suriname</option>
+                                <option value="SWZ">Swaziland</option>
+                                <option value="SYR">Syrië</option>
+                                <!--MARK: T.-->
+                                <option value="TJK">Tadzjikistan</option>
+                                <option value="TWN">Taiwan</option>
+                                <option value="TZA">Tanzania</option>
+                                <option value="THA">Thailand</option>
+                                <option value="TGO">Togo</option>
+                                <option value="TKL">Tokelau</option>
+                                <option value="TON">Tonga</option>
+                                <option value="TTO">Trinidad en Tobago</option>
+                                <option value="TCD">Tsjaad</option>
+                                <option value="CZE">Tsjechië</option>
+                                <option value="TUN">Tunesië</option>
+                                <option value="TUR">Turkije</option>
+                                <option value="TKM">Turkmenistan</option>
+                                <option value="TCA">Turks- en Caicoseilanden</option>
+                                <option value="TUV">Tuvalu</option>
+                                <!--MARK: U.-->
+                                <option value="URY">Uruguay</option>
+                                <!--MARK: V.-->
+                                <option value="VUT">Vanuatu</option>
+                                <option value="VAT">Vaticaanstad</option>
+                                <option value="VEN">Venezuela</option>
+                                <option value="GBR">Verengid Koninkrijk</option>
+                                <option value="ARE">Verenigde Arabische Emiraten</option>
+                                <option value="USA">Verenigde Staten</option>
+                                <option value="VNM">Vietnam</option>
+                                <!--MARK: W.-->
+                                <option value="WLF">Wallis en Futuna</option>
+                                <option value="ESH">Westelijke Sahara</option>
+                                <!--MARK: Z.-->
+                                <option value="ZMB">Zambia</option>
+                                <option value="ZWE">Zimbabwe</option>
+                                <option value="ZAF">Zuid-Afrika</option>
+                                <option value="SGS">Zuid-Georgia en de Zuidelijke Sandwicheilanden</option>
+                                <option value="KOR">Zuid-Korea</option>
+                                <option value="SSD">Zuid-Soedan</option>
+                                <option value="SWE">Zweden</option>
+                                <option value="Che">Zwitserland</option>
                             </datalist>
 
                         <p>Telefoonnumer</p>
@@ -215,7 +432,7 @@
                 </div>
 
                 <div class="knop3">
-                    <a href="pagen3.html" class="knop3">3</a>
+                    <a href="page3.html" class="knop3">3</a>
                 </div>
     </div>
 </main>

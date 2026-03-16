@@ -105,7 +105,7 @@ Wel dat een fieldset in een fieldset mag
 1e les CSS volgen
 
 # Weekoverzicht
-## Volledige bronnenlijst:
+## Bronnenlijst:
 Progressive enhancement reading list (2021). Geraadpleegd op 16-02-2026 van https://www.quirksmode.org/blog/archives/2021/02/progressive_enh_1.html
 
 It's hard to justify Tahoe icons (2026). Geraadpleegd op 16-02-2026 van https://tonsky.me/blog/tahoe-icons/
@@ -187,7 +187,7 @@ Met minmax kan je aangeven hoeveel de minimale grootte en maximale grootte mag z
 Morgen weer css lessen
 
 # Weekoverzicht
-## Volledige bronnenlijst:
+## Bronnenlijst:
 mdn - The Checkbox Role (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/checkbox_role" alt="The Checkbox Role">
 mdn - The Radio Role (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/radio_role" alt="The Radio Role">
 mdn - input type="checkbox" (2026). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/checkbox" alt="<input type=checkbox>">
@@ -230,7 +230,7 @@ De video voor de weekly geek staat al langer op Brightspace en heb ik al gezien.
 Om het op te frissen heb ik het nog een keer bekeken.
 De video is makkelijk te volgen en goed te begrijpen.
 
-# Dag 05 (10-03-2026)
+# Dag 06 (10-03-2026)
 ## Checkout
 Besproken met Aya A.
 
@@ -261,15 +261,66 @@ Geleerd hoe je details kan stijlen in css.
 Morgen zijn er weer css lessen
 
 # Weekoverzicht
-## Volledige bronnenlijst:
+## Bronnenlijst:
 What happened to text inputs? (2022). Geraadpleegd op 09-03-2026 van <a href="https://briefs.video/videos/what-happened-to-text-inputs/">
 mdn (2003). <a href="https://developer.mozilla.org/en-US/" alt="mdn">
-w3schools (1998) <a href="https://www.w3schools.com/">
+w3schools (1998) <a href="https://www.w3schools.com/" alt="w3schools">
 shutterstock (2003). Geraadpleegd op 10-03-2026 van <a href="https://www.shutterstock.com/nl/image-vector/information-sign-symbol-info-icon-isolated-1659040048">
 
 
-Witruimte
-landcode
-Volgende vragen netter
-meer info buttons
-readme weekelijkse refelctie
+# Dag 07 (16-03-2026)
+## Checkout
+Besproken met Alisha
+
+## Wat heb ik gedaan vandaag?
+In mijn JavaScript sprak ik eerst een input aan. Dit deed ik eerst met één om te kijekn of het werkt, voor ik alles kapot maak.
+Door achter querySelector All te schrijven pakt hij alle inputs om te valideren.
+
+Vasilis heeft me nieuwe code uitgelegd in JavaScript
+
+## Hoe lang duurde het?
+Van +/- 09:10 tot
+
+## Wat heb ik geleerd?
+
+## Wat ga ik morgen doen?
+
+# Weekoverzicht
+## Bronnenlijst:
+How do I remove the default link color of the html hyperlink a tag (2011). Geraadpleegd op 16-03-2026 van <a href="https://stackoverflow.com/questions/6722467/how-do-i-remove-the-default-link-color-of-the-html-hyperlink-a-tag" alt="stackoverflow">
+
+
+
+# Volledige bronnenlijst:
+Aangifte 2025 erfbelasting (2025). Van <a href="https://download.belastingdienst.nl/belastingdienst/docs aangifte_erfbel_2025_suc0602z52fol.pdf" alt="erfbelastingsformulier">
+
+Toelichting 2025 erfbelasting (2025) Van <a href="https://download.belastingdienst.nl/belastingdienst/docs toe_aangifte_erf_2025_suc0611t53fd.pdf" alt="erfbelastingsformulier_toelichting">
+
+chatgpt (2022). Gebruikt voor het uitleggen en nakijken van code.
+Van <a href="https://chatgpt.com/?utm_source=google&utm_medium=paid_search&utm_campaign=GOOG_C_SEM_GBR_Core_CHT_BAU_ACQ_PER_MIX_ALL_EMEA_NL_EN_042225&c_id=22475634712&c_agid=177633040559&c_crid=747849027118&c_kwid=kwd-1927227100722&c_ims=&c_pms=9197724&c_nw=g&c_dvc=c&gad_source=1&gad_campaignid=22475634712&gbraid=0AAAAA-I0E5eUFEOo-M_FlCZvK_DCJ_ufn&gclid=CjwKCAjw1N7NBhAoEiwAcPchp5TyYUoj7utngQ6B0neyJOSb1vZ9085z1FPNB7wfJJtUUhaDkeQe7RoCQ5QQAvD_BwE" alt="chatgpt">
+
+mdn (2003). <a href="https://developer.mozilla.org/en-US/" alt="mdn">
+
+w3schools (1998) <a href="https://www.w3schools.com/" alt=w3schools>
+
+Progressive enhancement reading list (2021). Geraadpleegd op 16-02-2026 van <a href="https://www.quirksmode.org/blog/archives/2021/02/progressive_enh_1.html" alt="progressive_enhancement_reading_list">
+
+It's hard to justify Tahoe icons (2026). Geraadpleegd op 16-02-2026 van <a href="https://tonsky.me/blog/tahoe-icons/" alt="it's_hard_to_justify_tahoe_icons">
+
+NS (1996). Geraadpleegd op 16-02-2026 van <a href="https://www.ns.nl/?utm_source=google&utm_medium=Paid_Search&utm_campaign=NSR-CORP-BR-corporate_C13090&utm_content=&utm_term=ns&utm_id=google_ads_16495705419&gad_source=1&gad_campaignid=16495705419&gbraid=0AAAAADPhMscPjWWI3vSi6V8BraJihnTJl&gclid=CjwKCAiAncvMBhBEEiwA9GU_fti-30alVtLNWP_fT4Or7iASikKIst1hdjk270mZGHsGt4If4pYxQhoC04YQAvD_BwE" alt="NS"
+
+mdn - The Checkbox Role (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/checkbox_role" alt="The Checkbox Role">
+
+mdn - The Radio Role (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/radio_role" alt="The Radio Role">
+
+mdn - input type="checkbox" (2026). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/checkbox" alt="<input type=checkbox>">
+
+mdn - input type-"radio" (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio" alt="<input type=radio>">
+
+mdn - The Label element (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/label" alt="The Label element">
+
+What happened to text inputs? (2022). Geraadpleegd op 09-03-2026 van <a href="https://briefs.video/videos/what-happened-to-text-inputs/">
+
+shutterstock (2003). Geraadpleegd op 10-03-2026 van <a href="https://www.shutterstock.com/nl/image-vector/information-sign-symbol-info-icon-isolated-1659040048">
+
+How do I remove the default link color of the html hyperlink a tag (2011). Geraadpleegd op 16-03-2026 van <a href="https://stackoverflow.com/questions/6722467/how-do-i-remove-the-default-link-color-of-the-html-hyperlink-a-tag" alt="stackoverflow">

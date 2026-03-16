@@ -1,24 +1,49 @@
-const input = document.querySelector('input')
-const error = document.querySelector('.error')
+const inputs = document.querySelectorAll('input')
+//const error = document.querySelector('.error')
 const form = document.querySelector('form')
 
-input.addEventListener('input', (event) => {
-    console.log(event)
+inputs.forEach((input) => {
+    //console.log(input);
+    input.addEventListener('input', (event) => {
+        var error = input.parentNode.nextElementSibling;
 
-    if (!input.validity.valid){
-        error.textContent ='Vul de juiste voorletters in'
-        input.setAttribute('aria-describedby', 'error-id')
-        //input.focus()
-        input.classList.remove('valid');
-        input.classList.add('invalid');
-    } else {
-        console.log('hoi')
-        input.removeAttribute('aria-describedby')
-        error.textContent =""
-        input.classList.remove('invalid');
-        input.classList.add('valid');
-    }
-})
+        if (!input.validity.valid){
+            var errorMsg = input.getAttribute('data-error');
+            if(error && error.classList.contains('error')) {
+                error.textContent = errorMsg;
+            }
+            
+            //input.focus()
+            input.classList.remove('valid');
+            input.classList.add('invalid');
+        } else {
+            console.log('hoi')
+            if(error && error.classList.contains('error')) {
+                error.textContent =""
+            }
+            input.classList.remove('invalid');
+            input.classList.add('valid');
+        }
+    });
+});
+
+// input.addEventListener('input', (event) => {
+//     console.log(event)
+
+//     if (!input.validity.valid){
+//         error.textContent ='Vul de juiste voorletters in'
+//         input.setAttribute('aria-describedby', 'error-id')
+//         //input.focus()
+//         input.classList.remove('valid');
+//         input.classList.add('invalid');
+//     } else {
+//         console.log('hoi')
+//         input.removeAttribute('aria-describedby')
+//         error.textContent =""
+//         input.classList.remove('invalid');
+//         input.classList.add('valid');
+//     }
+// })
 
 
 // const landen = {

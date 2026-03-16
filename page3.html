@@ -22,6 +22,21 @@
     <form>
         <fieldset class="naarVoren">
             <legend>Voor wie u aangifte doet</legend>
+                        
+                    <details class="info1">
+                        <summary>i</summary>
+                        <p class="infoKleur">
+                            Bent u executeur en doet u aangifte voor alle verkrijgers?
+                            Geef dan aan voor hoeveel verkrijgers u aangifte doet.
+                            Bent u zelf ook verkrijger? Tel uzelf dan ook mee.
+                        </p>
+                        
+                        <p class="infoKleur">
+                            <b>Let op!</b> <br />
+                            De erfgenamen moeten ook aangifte doen voor andere verkrijgers die zelf geen aangifte hoeven te doen, zoals legatarissen en legitimarissen.
+                        </p>
+                    </details>
+
                 <p>Ik ben executeur en doe aangifte voor alle personen en/of instellingen die iets krijgen uit de nalatenschap (verkrijgers).</p>
                 <label>
                     Ja
@@ -34,7 +49,8 @@
                 </label>
 
                 <div class="ja-vragen">
-                    <p>Geef aan voor hoeveel verkrijgers u aangifte doet. Bent u zelf ook verkrijger? Tel uzelf dan ook mee.</p>
+                    <p>Geef aan voor hoeveel verkrijgers u aangifte doet. <br />
+                        Bent u zelf ook verkrijger? Tel uzelf dan ook mee.</p>
                     <input type="number">
                 </div>
 
@@ -42,11 +58,41 @@
                     <p class="kleiner">Als er geen executeur is kruis aan welke situatie voor u geldt.</p>
 
                     <p>Ik ben erfgenaam en ben gemachtigd om aangifte te doen voor meerdere personen en/of instellingen die iets krijgen uit de nalatenschap (verkrijgers)</p>
-                    <p>Ja</p>
-                    <p class="kleiner">Geef aan voor hoeveel verkrijgers u aangifte doet. Tel uzelf ook mee.</p>
                         <label>
-                            <input type="number">
+                            <input type=radio name="jaExecuteur" value="ja">
+                            Ja
                         </label>
+
+                        <label>
+                            <input type=radio name="jaExecuteur">
+                            Nee
+                        </label>
+
+                            <div class="geenExecuteur">
+                                <p class="kleiner">Geef aan voor hoeveel verkrijgers u aangifte doet. Tel uzelf ook mee.</p>
+                                    <label>
+                                        <input type="number">
+                                    </label>
+                            </div>
+                    
+                    <p>Ik ben erfgenaam en doe samen met andere erfgenamen aangifte.</p>
+                        <label>
+                            <input type="radio" name="jaExecuteur" value="ja">
+                            Ja
+                        </label>
+
+                        <label>
+                            <input type=radio name="jaExecuteur">
+                            Nee
+                        </label>
+
+                            <div class="geenExecuteur">
+                                <p class="kleiner">Geef het aantal personen en/of instellingen aan die iets krijgen uit de nalatenschap (verkrijgers). <br />
+                                    Tel uzelf ook mee</p>
+                                <label>
+                                    <input type="number">
+                                </label>
+                            </div>
                 </div>
         </fieldset>
     </form>

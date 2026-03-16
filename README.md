@@ -266,3 +266,10 @@ What happened to text inputs? (2022). Geraadpleegd op 09-03-2026 van <a href="ht
 mdn (2003). <a href="https://developer.mozilla.org/en-US/" alt="mdn">
 w3schools (1998) <a href="https://www.w3schools.com/">
 shutterstock (2003). Geraadpleegd op 10-03-2026 van <a href="https://www.shutterstock.com/nl/image-vector/information-sign-symbol-info-icon-isolated-1659040048">
+
+
+Witruimte
+landcode
+Volgende vragen netter
+meer info buttons
+readme weekelijkse refelctie

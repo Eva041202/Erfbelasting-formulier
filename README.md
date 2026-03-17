@@ -279,7 +279,26 @@ Door achter querySelector All te schrijven pakt hij alle inputs om te valideren.
 Vasilis heeft me nieuwe code uitgelegd in JavaScript
 
 ## Hoe lang duurde het?
-Van +/- 09:10 tot
+Van +/- 09:10 tot 16:15
+
+## Wat heb ik geleerd?
+Geleerd wat een array is.
+Geleerd hoe je een loop kan maken met forEach
+Met data-error in de html kan je zeggen wat je wil dat de gebruiker ziet.
+
+## Wat ga ik morgen doen?
+Morgen wil ik de website responsive maken. Tot +/- 700px gaat dit goed, maar nog kleiner verdwijnen stukjes van het formulier.
+De validatie wil ik afmaken met Java.
+Sommige inputvelden hebben meer witruimte dan anderen. Dit wil verbeteren
+
+# Dag 08 (17-03-2026)
+## Checkout
+Besproken met
+
+## Wat heb ik gedaan vandaag?
+
+## Hoe lang duurde het?
+Van +/- 09:00 tot
 
 ## Wat heb ik geleerd?
 
@@ -289,6 +308,7 @@ Van +/- 09:10 tot
 ## Bronnenlijst:
 How do I remove the default link color of the html hyperlink a tag (2011). Geraadpleegd op 16-03-2026 van <a href="https://stackoverflow.com/questions/6722467/how-do-i-remove-the-default-link-color-of-the-html-hyperlink-a-tag" alt="stackoverflow">
 
+How to make list with an icon such as checkmark (2018). Geraadpleegd op 17-03-2026 van <a href="https://theme.co/forum/t/how-to-make-list-with-an-icon-such-as-checkmark-pro/21961" alt="image_tick">
 
 
 # Volledige bronnenlijst:
@@ -324,3 +344,5 @@ What happened to text inputs? (2022). Geraadpleegd op 09-03-2026 van <a href="ht
 shutterstock (2003). Geraadpleegd op 10-03-2026 van <a href="https://www.shutterstock.com/nl/image-vector/information-sign-symbol-info-icon-isolated-1659040048">
 
 How do I remove the default link color of the html hyperlink a tag (2011). Geraadpleegd op 16-03-2026 van <a href="https://stackoverflow.com/questions/6722467/how-do-i-remove-the-default-link-color-of-the-html-hyperlink-a-tag" alt="stackoverflow">
+
+How to make list with an icon such as checkmark (2018). Geraadpleegd op 17-03-2026 van <a href="https://theme.co/forum/t/how-to-make-list-with-an-icon-such-as-checkmark-pro/21961" alt="image_tick">

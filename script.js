@@ -6,11 +6,14 @@ inputs.forEach((input) => {
     //console.log(input);
     input.addEventListener('input', (event) => {
         var error = input.parentNode.nextElementSibling;
+        console.log(error)
 
         if (!input.validity.valid){
             var errorMsg = input.getAttribute('data-error');
+            console.log("hoi1")
             if(error && error.classList.contains('error')) {
-                error.textContent = errorMsg;
+            // console.log("hoi2", errorMsg)
+                error.textContent = errorMsg; 
             }
             
             //input.focus()

@@ -15,38 +15,38 @@
 
     </section>
 
-    <!-- MARK: Vraag 1-->
-<main class="grid">
-    
     <h1 class="bovenkant">Aangifte Erfbelasting</h1>
 
+    <!-- MARK: Vraag 1-->
+<main class="grid">
 
         <form class="formulier">
             <fieldset class="naarVoren">
                 <legend>Persoonsgegevens overledene</legend>
                     <div class="labels">
-                        <label>Voorletter(s)
-                            <input type="text" required data-error="Vul uw voorletter in">
-                        </label>
-                        <p class="error" id="error-id"></p>
+                            <label>Voorletter(s)
+                                <input type="text" required data-error="Voer uw voorletter(s) in">
+                            </label>
+                            <p class="error" id="error-id"></p>
 
-                        <label>Tussenvoegsel(s)
-                            <input type="text" >
-                        </label>
+                            <label>Tussenvoegsel(s)
+                                <input type="text">
+                            </label>
 
                         <label>Achternaam
-                            <input type="text" required data-error="Vul uw achternaam in">
+                            <input type="text" required data-error="Voer uw achternaam in">
                         </label>
                         <p class="error" id="error-id1"></p>
 
                         <label>BSN-nummer
                             <input type="number" required data-error="Een BSN-nummer bestaat uit 8 of 9 cijfers">
                         </label>
-                        <p class="error"></p>
+                        <p class="error" id="error-id2"></p>
 
                         <label>Overlijdensdatum
-                            <input type="date">
+                            <input type="date" required data-error="Voer de datum van het overlijden in">
                         </label>
+                        <p class="error" id="error-id3"></p>
                     </div>
             </fieldset>
 <!-- MARK: Verschijnende vragen -->
@@ -125,40 +125,34 @@
 
                     <details class="info1">
                         <summary>i</summary>
-                        <pre class="infoKleur">
-Het gaat hier om kinderen die:
-    – door geboorte of erkenning eigen kind van de overledene zijn.
-    – door de overledene zijn geadopteerd.
-                            
-Het kan zijn dat een (klein)kind van overledene nog niet geboren is, maar waarvan de moeder
-zwanger was op het moment van overlijden.
-Voor dit kind kunt u pas aangifte erfbelasting doen als het geboren is. U kruist dan de
-relatie ‘(klein)kind’ aan.
-U geeft aan dat er een ongeboren kind is door ons een brief te sturen met daarin uw naam,
-bsn en de overlijdensdatum van de overledene.
-U kunt de briefsturen naar:
-    Belastingdienst/Kantoor Eindhoven
-    Antwoordnummer 14660
-    5600 WK Eindhoven
-
-De andere verkrijgers moeten wel binnen 8 maanden aangifte doen.
-
-<b>Let op!</b>
-Het gaat hier niet om pleegkinderen of stiefkinderen.
-                        </pre>
+                        <p class="infoKleur">
+                            Het gaat hier om kinderen die:<br />
+                                – door geboorte of erkenning eigen kind van de overledene zijn.<br />
+                                – door de overledene zijn geadopteerd.<br />
+                            <br />
+                            Het kan zijn dat een (klein)kind van overledene nog niet geboren is, maar waarvan de moeder zwanger was op het moment van overlijden.<br />
+                            Voor dit kind kunt u pas aangifte erfbelasting doen als het geboren is. U kruist dan de relatie ‘(klein)kind’ aan.<br />
+                            U geeft aan dat er een ongeboren kind is door ons een brief te sturen met daarin uw naam, bsn en de overlijdensdatum van de overledene.<br />
+                            U kunt de briefsturen naar:<br />
+                            Belastingdienst/Kantoor Eindhoven<br />
+                            Antwoordnummer 14660<br />
+                            5600 WK Eindhoven<br />
+                            <br />
+                            De andere verkrijgers moeten wel binnen 8 maanden aangifte doen.<br />
+                            <br />
+                            <b>Let op!</b><br />
+                            Het gaat hier niet om pleegkinderen of stiefkinderen.
+                        </p>
 
                         <hr />
 
-                        <pre class="infoKleur">
-<b>Is 1 van deze kinderen eerder overleden dan de overleden ouder en had dit overleden kind
-zelf kinderen?</b>
-De echtgenoot of geregistreerde partner en de kinderen van de overledene komen als 1e in
-aanmerking om van de overledene te erven.
-Maar als 1 van de kinderen al eerder is overleden, kan diens deel van de erfenis naar
-diens kinderen gaan. Dit heet plaatsvervulling.
-Het gaat dan dus om de kleinkinderen van de overledene voor wie u nu aangifte doet.
-In dat geval geeft u in de aangifte de kleinkinderen van de overledene op als verkrijger.
-                        </pre>
+                        <p class="infoKleur">
+                            <b>Is 1 van deze kinderen eerder overleden dan de overleden ouder en had dit overleden kind zelf kinderen?</b><br />
+                            De echtgenoot of geregistreerde partner en de kinderen van de overledene komen als 1e in aanmerking om van de overledene te erven.<br />
+                            Maar als 1 van de kinderen al eerder is overleden, kan diens deel van de erfenis naar diens kinderen gaan. Dit heet plaatsvervulling.<br />
+                            Het gaat dan dus om de kleinkinderen van de overledene voor wie u nu aangifte doet.<br />
+                            In dat geval geeft u in de aangifte de kleinkinderen van de overledene op als verkrijger.<br />
+                        </p>
                             
                         </p>
                     </details>
@@ -240,7 +234,7 @@ In dat geval geeft u in de aangifte de kleinkinderen van de overledene op als ve
 
                     <div class="ja-vragen">
                         <p>Protocolnummers</p>
-                        <input type="number" name="testament2">
+                        <input type="number" name="testament2" required data-error="Vul het protocolnummer van de notaris in bij wie de overleden zijn/haar laatste testament heeft ondertekend">
 
                         <p>Voorletter(s)</p>
                         <input type="text">

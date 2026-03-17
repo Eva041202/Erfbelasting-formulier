@@ -14,10 +14,10 @@
         <span>Dit is een schoolproject</span>
     </section>
 
-    <!-- MARK: vraag 3-->
-<main class="grid">
+    <h1 class="bovenkant">Aangifte Erfbelasting</h1> 
 
-    <h1 class="bovenkant">Aangifte Erfbelasting</h1>    
+    <!-- MARK: vraag 3-->
+<main class="grid">   
 
     <form>
         <fieldset class="naarVoren">
@@ -49,9 +49,11 @@
                 </label>
 
                 <div class="ja-vragen">
-                    <p>Geef aan voor hoeveel verkrijgers u aangifte doet. <br />
-                        Bent u zelf ook verkrijger? Tel uzelf dan ook mee.</p>
-                    <input type="number">
+                    <label>Geef aan voor hoeveel verkrijgers u aangifte doet. <br />
+                        Bent u zelf ook verkrijger? Tel uzelf dan ook mee.
+                        <input type="number" required data-error="Voer in voor hoeveel verkrijgers (de mensen die wat krijgen) u aangifte doet">
+                    </label>
+                    <p class="error" id="error-id21"></p>
                 </div>
 
                 <div class="nee-vragen">
@@ -69,10 +71,10 @@
                         </label>
 
                             <div class="geenExecuteur">
-                                <p class="kleiner">Geef aan voor hoeveel verkrijgers u aangifte doet. Tel uzelf ook mee.</p>
-                                    <label>
-                                        <input type="number">
-                                    </label>
+                                <label class="kleiner">Geef aan voor hoeveel verkrijgers u aangifte doet. Tel uzelf ook mee.
+                                    <input type="number" required data-error="Voer in voor hoeveel verkrijgers (de mensen die wat krijgen) u aangifte doet">
+                                </label>
+                                <p class="error" id="error-id22"></p>
                             </div>
                     
                     <p>Ik ben erfgenaam en doe samen met andere erfgenamen aangifte.</p>
@@ -87,11 +89,11 @@
                         </label>
 
                             <div class="geenExecuteur">
-                                <p class="kleiner">Geef het aantal personen en/of instellingen aan die iets krijgen uit de nalatenschap (verkrijgers). <br />
-                                    Tel uzelf ook mee</p>
-                                <label>
-                                    <input type="number">
+                                <label class="kleiner">Geef het aantal personen en/of instellingen aan die iets krijgen uit de nalatenschap (verkrijgers). <br />
+                                    Tel uzelf ook mee
+                                    <input type="number" required date-error="Voer in voor hoeveel verkrijgers (de mensen die wat krijgen) u aangifte doet">
                                 </label>
+                                <p class="error" id="error-id23"></p>
                             </div>
                 </div>
         </fieldset>
@@ -113,5 +115,13 @@
             <div class="knop3">
                 <a href="page3.html" class="knop3">3</a>
             </div>
+        </div>
+
+        <div class="knopVerzend">
+            <a href="eindpage.html" class="knopVerzend">Verzenden</a>
+        </div>
+
+        <script src="script.js"></script>
+
 </body>
 </html>

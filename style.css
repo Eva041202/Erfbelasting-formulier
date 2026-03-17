@@ -1,5 +1,7 @@
 /*MARK - bovenkant van pagina */
 .waarschuwing {
+    position: sticky;
+    top: 0;
     background-color: red;
     text-align: center;
 }
@@ -13,8 +15,10 @@ span {
 }
 
 .bovenkant {
-    background-color: #FFC917;
+    position: sticky;
+    top: 0;
     text-align: center;
+    background-color: #FFC917;
 }
 
 h1 {
@@ -28,7 +32,9 @@ h1 {
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 10px 10px 5px 12px lightblue;
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
 }
 
 /*MARK - formulier */
@@ -39,14 +45,40 @@ legend {
 }
 
 .labels {
-    display: inline-block;
-    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+    width: 40%;
+}
+
+input:user-valid {
+    border: 5px solid green;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+    width: 100%
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+.witruimte {
+    margin: 0;
 }
 
 /* MARK - voor de validatie */
 .error {
     color: #FFC917;
-    display: none;
+    /* display: none; */
+}
+
+.error:empty {
+    margin: 0;
 }
 
 label:has(input:invalid) + .error {
@@ -70,10 +102,14 @@ body {
     margin: 0px;
 }
 
-/* MARK - formulier in het midden van het scherm */
+/* MARK - formulier in het midden van het scherm en responsive */
+main {
+    padding: 1em;
+}
+
 .grid {
     display: grid;
-    grid-template-columns: 1fr minmax(0px, 600px) 1fr;
+    grid-template-columns: 1fr minmax(0px, 700px) 1fr;
 }
 
 .grid > * {
@@ -85,7 +121,9 @@ body {
 }
 
 form {
-    margin: auto;
+    max-width: 700px;
+    width: 100%;
+    /* margin: auto; */
 }
 
 /* MARK - info buttons */
@@ -191,3 +229,17 @@ input {
     border-radius: 5px;
 }
 
+.knopVerzend {
+    background-color: #0063d3;
+    color: #FFC917;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    padding: .5em;
+    width: 80%;
+}
+
+.tick {
+    width: 5em;
+}

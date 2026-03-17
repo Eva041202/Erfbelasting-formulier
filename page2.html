@@ -14,10 +14,10 @@
         <span>Dit is een schoolproject</span>
     </section>
 
+    <h1 class="bovenkant">Aangifte Erfbelasting</h1> 
+
     <!-- MARK: vraag 2-->
 <main class="grid">
-
-    <h1 class="bovenkant">Aangifte Erfbelasting</h1>
 
     <form>
         <fieldset class="naarVoren">
@@ -32,31 +32,39 @@
 
                         <hr />
                         
-                        <pre class="infoKleur">
-<b>Bsn</b>
-Het bsn staat op 1 van de volgende documenten:
-    – Nederlands identiteitsbewijs, zoals een paspoort, identiteitskaart of rijbewijs
-    – een aanslag inkomstenbelasting of een aangiftebrief
-    – Nederlandse loonstrook, jaaropgaaf, zorgpas of zorgpolis
-
-<b>Beconnummer</b>
-Elke belastingconsulent heeft een beconnummer.
-U vindt het beconnummer bijvoorbeeld op de factuur
-                        </pre>
+                        <p class="infoKleur">
+                            <b>Bsn</b><br />
+                                Het bsn staat op 1 van de volgende documenten:<br />
+                                – Nederlands identiteitsbewijs, zoals een paspoort, identiteitskaart of rijbewijs<br />
+                                – een aanslag inkomstenbelasting of een aangiftebrief<br />
+                                – Nederlandse loonstrook, jaaropgaaf, zorgpas of zorgpolis<br />
+                            <br />
+                            <b>Beconnummer</b><br />
+                            Elke belastingconsulent heeft een beconnummer.<br />
+                            U vindt het beconnummer bijvoorbeeld op de factuur<br />
+                            <br />
+                            <b>Protocolnummer</b><br />
+                            Het nummer van een notaris in functie vindt u op <ins><a style="text-decoration:none; color:inherit;" href="https://registernotariaat.nl/" target="_blank" alt="register_notariaat">registernotariaat.nl</a></ins> in het Register notariaat.<br />
+                            Het actieve protocolnummer is dat waar geen ‘Datum eind’ bij staat.<br />
+                            Hebt u ook een adres nodig? Ga dan naar <ins><a style="text-decoration:none; color:inherit;" href="https://www.notaris.nl/" target="_blank" alt="notaris">notaris.nl</a></ins> en vul de plaatsnaam in bij ‘Zoek een notaris'. U ziet dan van elk kantoor in de regio het adres.
+                        </p>
                     </details>
 
                 <div class="labels">
                     <label>BSN/RSIN gemachtigde
-                        <input type="number">
+                        <input type="number" required data-error="Voer het bsn of rsin nummer van de gemachtigde in">
                     </label>
+                    <p class="error" id="error-id4"></p>
 
                     <label>Beconnummer adviseur
-                        <input type="number">
+                        <input type="number" required data-error="Voer het beconnumer in (zie informatie voor meer)">
                     </label>
+                    <p class="error" id="error-id5"></p>
 
                     <label>Protocolnummer notaris
-                        <input type="number">
+                        <input type="number" required data-error="Voer het protcolnummer in (zie informatie voor meer)">
                     </label>
+                    <p class="error" id="error-id6"></p>
                 </div>
         </fieldset>
 
@@ -69,70 +77,95 @@ U vindt het beconnummer bijvoorbeeld op de factuur
                         <b>Landcode</b> <br />
                         Als u een buitenlands adres invult, moet u ook een landcode invullen.
                         Deze landcode bestaat altijd uit 3 letters.
-                        Staat het land niet in de lijst? Vermeld dan als landcode XXX
+                        Staat het land niet in de lijst? Vermeld dan als landcode XXX<br />
+                        <br />
+                            <b>Naam instelling</b><br />
+                            Dit kan bijvoorbeeld het notaris kantoor zijn.
                     </p>
                 </details>
 
                 <div class="labels">
                     <label>Voorletter(s)
-                        <input type="text">
+                        <input type="text" required data-error="Voer uw voorletter(s) in">
                     </label>
+                    <p class="error" id="error-id7"></p>
 
                     <label>Tussenvoegsel(s)
                         <input type="text">
                     </label>
 
                     <label>Achternaam
-                        <input type="text">
+                        <input type="text" required data-error="Voer uw achternaam in">
                     </label>
+                    <p class="error" id="error-id8"></p>
 
                     <label>Naam instelling
-                        <input type="text">
+                        <input type="text" required data-error="Voer de naam van de instelling in (zie informatie voor meer)">
                     </label>
+                    <p class="error" id="error-id9"></p>
 <!--MARK: Verschijn vragen 2-->
                     <label>
                         <input type="radio" name="adres" value="inNederland">
                         Adres in Nederland
-                    </label> <br />
+                    </label>
 
                     <label>
                         <input type="radio" name="adres" value="uitNederland">
-                        Adres in het buitenland
+                        Adres in buitenland
                     </label>
 
                     <div class="in-vragen">
-                        <p>Straat</p>
-                        <input type="text">
+                        <label>Straat
+                            <input type="text" required data-error="Voer uw straatnaam in">
+                        </label>
+                        <p class="error" id="error-id10"></p>
 
-                        <p>Huisnummer</p>
-                        <input type="text">
+                        <label>Huisnummer
+                            <input type="text" required data-error="Voer uw huisnummer in">
+                        </label>
+                        <p class="error" id="error-id11"></p>
 
-                        <p>Toevoeging</p>
-                        <input type="text">
+                        <label>Toevoeging
+                            <input type="text">
+                        </label>
 
-                        <p>Postcode</p>
-                        <input type="text">
+                        <label>Postcode
+                            <input type="text" required data-error="Voer uw postcode in">
+                        </label>
+                        <p class="error" id="error-id12"></p>
 
-                        <p>Woonplaats</p>
-                        <input type="text">
+                        <label>Woonplaats
+                            <input type="text" required data-error="Voer uw woonplaats in">
+                        </label>
+                        <p class="error" id="error-id13"></p>
                     </div>
 
                     <div class="uit-vragen">
-                        <p>Straat</p>
-                        <input type="text">
+                        <label>Straat
+                            <input type="text" required data-error="Voer uw straatnaam in">
+                        </label>
+                        <p class="error" id="error-id14"></p>
 
-                        <p>Huisnummer</p>
-                        <input type="text">
+                        <label>Huisnummer
+                            <input type="text" required data-error="Voer uw huisnummer in">
+                        </label>
+                        <p class="error" id="error-id15"></p>
 
-                        <p>Postcode</p>
-                        <input type="text">
+                        <label>Postcode
+                            <input type="text" required data-error="Voer uw postcode in">
+                        </label>
+                        <p class="error" id="error-id16"></p>
 
-                        <p>Plaats</p>
-                        <input type="text">
+                        <label>Plaats
+                            <input type="text" required data-error="Voer de plaats in">
+                        </label>
+                        <p class="error" id="error-id17"></p>
 
                         <!--MARK: Landcodes-->
-                        <p>Landcode</p>
-                            <input list="landcode" name="Landcode" />
+                        <label>Landcode
+                            <input list="landcode" name="Landcode" required data-error="Voer de landcode in">
+                        </label>
+                        <p class="error" id="error-id18"></p>
                             <datalist id="landcode">
                                 <!--MARK: A.-->
                                 <option value="AFG">Afghanistan</option>
@@ -408,11 +441,15 @@ U vindt het beconnummer bijvoorbeeld op de factuur
                                 <option value="Che">Zwitserland</option>
                             </datalist>
 
-                        <p>Telefoonnumer</p>
-                        <input type="number">
+                        <label>Telefoonnumer
+                            <input type="number" required data-error="Voer een telefoonnummer in waarmee we u kunnen bereiken">
+                        </label>
+                        <p class="error" id="error-id19"></p>
 
-                        <p>E-mailadres</p>
-                        <input type="email">
+                        <label>E-mailadres
+                            <input type="email" required data-error="Voer een e-mailadres in waarmee we u kunnen bereiken">
+                        </label>
+                        <p class="error" id="error-id20"></p>
                     </div>
                 
         </fieldset>
@@ -436,6 +473,8 @@ U vindt het beconnummer bijvoorbeeld op de factuur
                 </div>
     </div>
 </main>
+
+    <script src="script.js"></script>
 
 </body>
 </html>

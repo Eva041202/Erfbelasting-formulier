@@ -293,9 +293,13 @@ Sommige inputvelden hebben meer witruimte dan anderen. Dit wil verbeteren
 
 # Dag 08 (17-03-2026)
 ## Checkout
-Besproken met
+Besproken met Rafi
 
 ## Wat heb ik gedaan vandaag?
+De validatie verder uitgewerkt. Dit werkt nu overal.
+Een verzendknop gemaakt en een bevestigingspagina.
+Witruimtes weggewerkt.
+Responsive gemaakt.
 
 ## Hoe lang duurde het?
 Van +/- 09:00 tot

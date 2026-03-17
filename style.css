@@ -74,7 +74,8 @@ p {
 /* MARK - voor de validatie */
 .error {
     color: #FFC917;
-    /* display: none; */
+    margin: 0;
+    font-size: 0.9em;
 }
 
 .error:empty {
@@ -188,10 +189,19 @@ label:has(input[value="nee"]:checked) ~ .nee-vragen {
     /*MARK - Verschijnende vragen 2 */
 .in-vragen {
     display:none;
+    flex-direction: column;
+    gap:0.4em;
+}
+
+.in-vragen label, .uit-vragen label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 177px;
 }
 
 label:has(input[value="inNederland"]:checked) ~ .in-vragen {
-    display: block;
+    display: flex;
     border-radius: 50%;
 }
 
@@ -202,11 +212,6 @@ label:has(input[value="inNederland"]:checked) ~ .in-vragen {
 label:has(input[value="uitNederland"]:checked) ~ .uit-vragen {
     display: block;
     border-radius: 50%;
-}
-
-/* MARK - minder ruimte tussen de vraag en het invoerveld */
-input {
-    margin-bottom: -.5em;
 }
 
 /* MARK - sommige vragen tekst iets kleiner */

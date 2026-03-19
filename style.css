@@ -1,3 +1,10 @@
+/* MARK - BRON:
+            mdn (2003). https://developer.mozilla.org/en-US/>
+            w3schools (1998) https://www.w3schools.com/>
+            Aangifte 2025 erfbelasting (2025). Van https://download.belastingdienst.nl/belastingdienst/docs aangifte_erfbel_2025_suc0602z52fol.pdf
+            Toelichting 2025 erfbelasting (2025) Van https://download.belastingdienst.nl/belastingdienst/docs toe_aangifte_erf_2025_suc0611t53fd.pdf
+            NS (1996). Van https://www.ns.nl/?utm_source=google&utm_medium=Paid_Search&utm_campaign=NSR-CORP-BR-corporate_C13090&utm_content=&utm_term=ns&utm_id=google_ads_16495705419&gad_source=1&gad_campaignid=16495705419&gbraid=0AAAAADPhMscPjWWI3vSi6V8BraJihnTJl&gclid=CjwKCAiAncvMBhBEEiwA9GU_fti-30alVtLNWP_fT4Or7iASikKIst1hdjk270mZGHsGt4If4pYxQhoC04YQAvD_BwE */
+
 /*MARK - bovenkant van pagina */
 .waarschuwing {
     position: sticky;
@@ -37,6 +44,8 @@ h1 {
     box-sizing: border-box;
 }
 
+
+
 /*MARK - formulier */
 legend {
     font-family: NS Sans, Verdana, sans-serif;
@@ -51,25 +60,11 @@ legend {
     width: 40%;
 }
 
-input:user-valid {
-    border: 5px solid green;
-}
-
-input[type="text"],
-input[type="date"],
-input[type="number"],
-select {
-    width: 100%
-    box-sizing: border-box;
-}
-
 p {
     margin: 0.5em 0;
 }
 
-.witruimte {
-    margin: 0;
-}
+
 
 /* MARK - voor de validatie */
 .error {
@@ -85,6 +80,21 @@ p {
 label:has(input:invalid) + .error {
     display:block;
 }
+
+/* MARK - validatie css 
+        BRON: Workshop validatie van Vasilis - https://codepen.io/Eva0412/pen/gbwwwBV*/
+input:user-valid {
+    border: 5px solid green;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+    width: 100%
+    box-sizing: border-box;
+}
+
 
 /* MARK - styling */
 label, p {
@@ -103,11 +113,14 @@ body {
     margin: 0px;
 }
 
+
+
 /* MARK - formulier in het midden van het scherm en responsive */
 main {
     padding: 1em;
 }
 
+/* BRON: Mijn grid pakte eerst een kolom te veel (dat ik niet aangaf). Victor heeft mij hierbij geholpen */
 .grid {
     display: grid;
     grid-template-columns: 1fr minmax(0px, 700px) 1fr;
@@ -124,14 +137,17 @@ main {
 form {
     max-width: 700px;
     width: 100%;
-    /* margin: auto; */
 }
 
-/* MARK - info buttons */
+
+
+/* MARK - info buttons
+            BRON: tip van Vasilis */
 fieldset {
     position: relative;
 }
-
+/* BRON:
+    Stack Overflow - Can I replace the expand icon of the details element (2012) Van https://stackoverflow.com/questions/10813581/can-i-replace-the-expand-icon-of-the-details-element */
 .info1 summary {
     list-style: none;
     color: #FFC917;
@@ -140,6 +156,7 @@ fieldset {
     position: absolute;
     top: 0;
     right: 1em;
+    /* BRON: tip van Choice */
     cursor: pointer;
 }
 
@@ -147,6 +164,8 @@ fieldset {
     color: #1c83c7;
     font-size: small;
 }
+
+
 
     /*MARK- Verschijnende vragen */
 .ja-vragen {
@@ -205,6 +224,7 @@ label:has(input[value="inNederland"]:checked) ~ .in-vragen {
     border-radius: 50%;
 }
 
+
 .uit-vragen {
     display:none;
 }
@@ -214,10 +234,14 @@ label:has(input[value="uitNederland"]:checked) ~ .uit-vragen {
     border-radius: 50%;
 }
 
+
+
 /* MARK - sommige vragen tekst iets kleiner */
 .kleiner {
     font-size: small;
 }
+
+
 
 /*MARK - knoppen onderin */
 .knoppen {

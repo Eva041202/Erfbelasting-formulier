@@ -81,18 +81,18 @@ Van Mats geleerd hoe ik een mark kan zetten voor aantekeningen in de code
 Van Jelle een link dat leidt naar de NS-font. Op die manier hoef ik het niet apart op m'n pc te hebben en hoeft het niet op gitignore.
 
 ## Wat ga ik morgen doen?
+Workshop volgen en kijken wat ik verder wil in mijn website.
 
 # Dag 02 (17-02-2026)
 ## Checkout
 Besproken met Thomas
-Hij heeft in JavaScript ervoor gezorgd dat als je bepaalde vragen neit nodig hebt, deze geskipt worden
 
 ## Wat heb ik gedaan vandaag?
 Workshop HTML gevolgd bij Victor.
 
 details en summary in de HTML toegevoegd
 
-De checkboxes veranderd voor radio buttons. Want met checkboxes zag ik dat je er meerdere kan aanvinken, maar dat wil ik niet
+De checkboxes veranderd voor radio buttons. Want met checkboxes zag ik dat je er meerdere kan aanvinken, maar dat wil ik niet.
 
 ## Hoe lang duurde het?
 Van +/- 09:15 tot 16:30
@@ -105,6 +105,12 @@ Wel dat een fieldset in een fieldset mag
 1e les CSS volgen
 
 # Weekoverzicht
+Deze week heb ik de vragen van het formulier in de html gezet.
+Stylen moet ik nog gaan doen.
+Ik maakte o.a. gebruik van de html tag i. Tijdens de bespreking vertelde Vasilis me dat dit beter in css te doen is en dat dit oude html code is.
+
+De html tag form ben ik eerder tegengekomen.
+Fieldset en legend zijn nieuw voor mij.
 ## Bronnenlijst:
 Progressive enhancement reading list (2021). Geraadpleegd op 16-02-2026 van https://www.quirksmode.org/blog/archives/2021/02/progressive_enh_1.html
 
@@ -113,6 +119,7 @@ It's hard to justify Tahoe icons (2026). Geraadpleegd op 16-02-2026 van https://
 Aangifte 2025 Erfbelasting (2025). Geraadpleegd op 16-02-2026 van https://download.belastingdienst.nl/belastingdienst/docs/aangifte_erfbel_2025_suc0602z52fol.pdf
 
 NS (1996). Geraadpleegd op 16-02-2026 van https://www.ns.nl/?utm_source=google&utm_medium=Paid_Search&utm_campaign=NSR-CORP-BR-corporate_C13090&utm_content=&utm_term=ns&utm_id=google_ads_16495705419&gad_source=1&gad_campaignid=16495705419&gbraid=0AAAAADPhMscPjWWI3vSi6V8BraJihnTJl&gclid=CjwKCAiAncvMBhBEEiwA9GU_fti-30alVtLNWP_fT4Or7iASikKIst1hdjk270mZGHsGt4If4pYxQhoC04YQAvD_BwE
+
 
 # Dag 03 (02-03-2026)
 ## Checkout
@@ -150,12 +157,13 @@ Maar ik leer wel door te doen. Wat ik weet schrijf ik en meestal werkt het.
 Ik wil kijken hoe ik de labels mooi onder elkaar krijg, inplaats alles naast elkaar.
 En of een media query nodig is. Ik wil dat alles 1 kolom blijft, ook als de pagina vergroot.
 
+
 # Dag 04 (03-03-2026)
 ## Checkout
 Besproken met Kelly
 
 ## Wat heb ik gedaan vandaag?
-Met het groepjes gezeten aan de Weekly Geek.
+Met de groepjes gezeten aan de Weekly Geek.
 Ik heb geprobeerd mee te werken, maar kon vrij weinig doen.
 De html en css is voor mij echt te begrijpen, maar met de javascript liep ik vast.
 
@@ -187,6 +195,12 @@ Met minmax kan je aangeven hoeveel de minimale grootte en maximale grootte mag z
 Morgen weer css lessen
 
 # Weekoverzicht
+Deze week ben ik begonnen met de styling in css.
+Voor mijn gevoel gaat het heel traag. Ik weet niet altijd welke code ik nodig heb voor wat ik wil. Hierdoor kost het soms veel tijd voor ik het juiste heb gevonden en dat het werkt.
+
+Met de grid had ik veel moeite, maar Victor heeft me kunnen helpen.
+
+Ik voel me soms een beetje overweldigend met alle nieuwe informatie en voor mijn gevoel ga ik te traag.
 ## Bronnenlijst:
 mdn - The Checkbox Role (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/checkbox_role" alt="The Checkbox Role">
 mdn - The Radio Role (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/radio_role" alt="The Radio Role">
@@ -195,6 +209,7 @@ mdn - input type-"radio" (2025). Geraadpleegd op 02-03-2026 van <a href="https:/
 mdn - The Label element (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/label" alt="The Label element">
 mdn (2003). <a href="https://developer.mozilla.org/en-US/" alt="mdn">
 w3schools (1998) <a href="https://www.w3schools.com/">
+
 
 # Dag 05 (09-03-2026)
 ## Checkout
@@ -230,6 +245,7 @@ De video voor de weekly geek staat al langer op Brightspace en heb ik al gezien.
 Om het op te frissen heb ik het nog een keer bekeken.
 De video is makkelijk te volgen en goed te begrijpen.
 
+
 # Dag 06 (10-03-2026)
 ## Checkout
 Besproken met Aya A.
@@ -261,10 +277,17 @@ Geleerd hoe je details kan stijlen in css.
 Morgen zijn er weer css lessen
 
 # Weekoverzicht
+Langzaam kom ik waar ik wil met de website.
+JavaScript vind ik nog een grote ellende, maar ik ben blij dat het nu met de hulp werkt.
+
+Kleine details voeg ik toe, zoals het icoontje, informatie button, etc.
+Ik moet nog even verder met de landcode, want ik heb ze nog niet allemaal.
+
+Volgende week weer ik meer labels laten valideren, de witruimtes moet ik bijwerken en de pagina moet nog responsive zijn.
 ## Bronnenlijst:
 What happened to text inputs? (2022). Geraadpleegd op 09-03-2026 van <a href="https://briefs.video/videos/what-happened-to-text-inputs/">
-mdn (2003). <a href="https://developer.mozilla.org/en-US/" alt="mdn">
-w3schools (1998) <a href="https://www.w3schools.com/" alt="w3schools">
+mdn (2003). <a href="https://developer.mozilla.org/en-US/">
+w3schools (1998) <a href="https://www.w3schools.com/">
 shutterstock (2003). Geraadpleegd op 10-03-2026 van <a href="https://www.shutterstock.com/nl/image-vector/information-sign-symbol-info-icon-isolated-1659040048">
 
 
@@ -291,6 +314,7 @@ Morgen wil ik de website responsive maken. Tot +/- 700px gaat dit goed, maar nog
 De validatie wil ik afmaken met Java.
 Sommige inputvelden hebben meer witruimte dan anderen. Dit wil verbeteren
 
+
 # Dag 08 (17-03-2026)
 ## Checkout
 Besproken met Rafi
@@ -302,51 +326,66 @@ Witruimtes weggewerkt.
 Responsive gemaakt.
 
 ## Hoe lang duurde het?
-Van +/- 09:00 tot
+Van +/- 09:00 tot 17:00
 
 ## Wat heb ik geleerd?
+Vandaag geen nieuwe code
 
 ## Wat ga ik morgen doen?
+Morgen wil ik mijn tijd besteden aan css
 
 # Weekoverzicht
-## Bronnenlijst:
-How do I remove the default link color of the html hyperlink a tag (2011). Geraadpleegd op 16-03-2026 van <a href="https://stackoverflow.com/questions/6722467/how-do-i-remove-the-default-link-color-of-the-html-hyperlink-a-tag" alt="stackoverflow">
+Van Vasilis hulp gekregen met JavaScript, zodat meerdere inputs valderen. De uitleg begrijp ik en wat er gebeurd, maar het zelf toepassen is nog echt een uitdaging.
 
-How to make list with an icon such as checkmark (2018). Geraadpleegd op 17-03-2026 van <a href="https://theme.co/forum/t/how-to-make-list-with-an-icon-such-as-checkmark-pro/21961" alt="image_tick">
+De laatste dingen heb ik toegevoegd en/of aangepast.
+De website is nu responsive.
+
+Dinsdag middag wel nog met Vasilis gezeten. De labels bij het kopje 'adres in buitenland' doen wat vreemd, terwijl ze hetzelfde zijn als die van 'adres in Nederland', die wel doen wat ik wil.
+## Bronnenlijst:
+How do I remove the default link color of the html hyperlink a tag (2011). Geraadpleegd op 16-03-2026 van <a href="https://stackoverflow.com/questions/6722467/how-do-i-remove-the-default-link-color-of-the-html-hyperlink-a-tag">
+
+How to make list with an icon such as checkmark (2018). Geraadpleegd op 17-03-2026 van <a href="https://theme.co/forum/t/how-to-make-list-with-an-icon-such-as-checkmark-pro/21961">
+
 
 
 # Volledige bronnenlijst:
-Aangifte 2025 erfbelasting (2025). Van <a href="https://download.belastingdienst.nl/belastingdienst/docs aangifte_erfbel_2025_suc0602z52fol.pdf" alt="erfbelastingsformulier">
+Aangifte 2025 erfbelasting (2025). Van <a href="https://download.belastingdienst.nl/belastingdienst/docs aangifte_erfbel_2025_suc0602z52fol.pdf">
 
-Toelichting 2025 erfbelasting (2025) Van <a href="https://download.belastingdienst.nl/belastingdienst/docs toe_aangifte_erf_2025_suc0611t53fd.pdf" alt="erfbelastingsformulier_toelichting">
+Toelichting 2025 erfbelasting (2025) Van <a href="https://download.belastingdienst.nl/belastingdienst/docs toe_aangifte_erf_2025_suc0611t53fd.pdf">
 
 chatgpt (2022). Gebruikt voor het uitleggen en nakijken van code.
-Van <a href="https://chatgpt.com/?utm_source=google&utm_medium=paid_search&utm_campaign=GOOG_C_SEM_GBR_Core_CHT_BAU_ACQ_PER_MIX_ALL_EMEA_NL_EN_042225&c_id=22475634712&c_agid=177633040559&c_crid=747849027118&c_kwid=kwd-1927227100722&c_ims=&c_pms=9197724&c_nw=g&c_dvc=c&gad_source=1&gad_campaignid=22475634712&gbraid=0AAAAA-I0E5eUFEOo-M_FlCZvK_DCJ_ufn&gclid=CjwKCAjw1N7NBhAoEiwAcPchp5TyYUoj7utngQ6B0neyJOSb1vZ9085z1FPNB7wfJJtUUhaDkeQe7RoCQ5QQAvD_BwE" alt="chatgpt">
+Van <a href="https://chatgpt.com/?utm_source=google&utm_medium=paid_search&utm_campaign=GOOG_C_SEM_GBR_Core_CHT_BAU_ACQ_PER_MIX_ALL_EMEA_NL_EN_042225&c_id=22475634712&c_agid=177633040559&c_crid=747849027118&c_kwid=kwd-1927227100722&c_ims=&c_pms=9197724&c_nw=g&c_dvc=c&gad_source=1&gad_campaignid=22475634712&gbraid=0AAAAA-I0E5eUFEOo-M_FlCZvK_DCJ_ufn&gclid=CjwKCAjw1N7NBhAoEiwAcPchp5TyYUoj7utngQ6B0neyJOSb1vZ9085z1FPNB7wfJJtUUhaDkeQe7RoCQ5QQAvD_BwE">
 
-mdn (2003). <a href="https://developer.mozilla.org/en-US/" alt="mdn">
+mdn (2003). <a href="https://developer.mozilla.org/en-US/">
 
-w3schools (1998) <a href="https://www.w3schools.com/" alt=w3schools>
+w3schools (1998) <a href="https://www.w3schools.com/">
 
-Progressive enhancement reading list (2021). Geraadpleegd op 16-02-2026 van <a href="https://www.quirksmode.org/blog/archives/2021/02/progressive_enh_1.html" alt="progressive_enhancement_reading_list">
+Progressive enhancement reading list (2021). Geraadpleegd op 16-02-2026 van <a href="https://www.quirksmode.org/blog/archives/2021/02/progressive_enh_1.html">
 
-It's hard to justify Tahoe icons (2026). Geraadpleegd op 16-02-2026 van <a href="https://tonsky.me/blog/tahoe-icons/" alt="it's_hard_to_justify_tahoe_icons">
+It's hard to justify Tahoe icons (2026). Geraadpleegd op 16-02-2026 van <a href="https://tonsky.me/blog/tahoe-icons/">
 
-NS (1996). Geraadpleegd op 16-02-2026 van <a href="https://www.ns.nl/?utm_source=google&utm_medium=Paid_Search&utm_campaign=NSR-CORP-BR-corporate_C13090&utm_content=&utm_term=ns&utm_id=google_ads_16495705419&gad_source=1&gad_campaignid=16495705419&gbraid=0AAAAADPhMscPjWWI3vSi6V8BraJihnTJl&gclid=CjwKCAiAncvMBhBEEiwA9GU_fti-30alVtLNWP_fT4Or7iASikKIst1hdjk270mZGHsGt4If4pYxQhoC04YQAvD_BwE" alt="NS"
+NS (1996). Geraadpleegd op 16-02-2026 van <a href="https://www.ns.nl/?utm_source=google&utm_medium=Paid_Search&utm_campaign=NSR-CORP-BR-corporate_C13090&utm_content=&utm_term=ns&utm_id=google_ads_16495705419&gad_source=1&gad_campaignid=16495705419&gbraid=0AAAAADPhMscPjWWI3vSi6V8BraJihnTJl&gclid=CjwKCAiAncvMBhBEEiwA9GU_fti-30alVtLNWP_fT4Or7iASikKIst1hdjk270mZGHsGt4If4pYxQhoC04YQAvD_BwE">
 
-mdn - The Checkbox Role (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/checkbox_role" alt="The Checkbox Role">
+mdn - The Checkbox Role (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/checkbox_role">
 
-mdn - The Radio Role (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/radio_role" alt="The Radio Role">
+mdn - The Radio Role (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/radio_role">
 
-mdn - input type="checkbox" (2026). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/checkbox" alt="<input type=checkbox>">
+mdn - input type="checkbox" (2026). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/checkbox">
 
-mdn - input type-"radio" (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio" alt="<input type=radio>">
+mdn - input type-"radio" (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio">
 
-mdn - The Label element (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/label" alt="The Label element">
+mdn - The Label element (2025). Geraadpleegd op 02-03-2026 van <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/label">
+
+Workshop validatie victor. Geraadpleegd op 03-03-2026 van <a href="./media/workshop_validatie_victor.jpg">
 
 What happened to text inputs? (2022). Geraadpleegd op 09-03-2026 van <a href="https://briefs.video/videos/what-happened-to-text-inputs/">
 
-shutterstock (2003). Geraadpleegd op 10-03-2026 van <a href="https://www.shutterstock.com/nl/image-vector/information-sign-symbol-info-icon-isolated-1659040048">
+Codepen - workshop validatie (2026). Geraadpleegd op 09-03-2026 van <a href="https://codepen.io/Eva0412/pen/gbwwwBV">
 
-How do I remove the default link color of the html hyperlink a tag (2011). Geraadpleegd op 16-03-2026 van <a href="https://stackoverflow.com/questions/6722467/how-do-i-remove-the-default-link-color-of-the-html-hyperlink-a-tag" alt="stackoverflow">
+Stack Overflow - Can I replace the expand icon of the details element (2012) Z.d. van <a href="https://stackoverflow.com/questions/10813581/can-i-replace-the-expand-icon-of-the-details-element">
 
-How to make list with an icon such as checkmark (2018). Geraadpleegd op 17-03-2026 van <a href="https://theme.co/forum/t/how-to-make-list-with-an-icon-such-as-checkmark-pro/21961" alt="image_tick">
+Shutterstock (2003). Geraadpleegd op 10-03-2026 van <a href="https://www.shutterstock.com/nl/image-vector/information-sign-symbol-info-icon-isolated-1659040048">
+
+How do I remove the default link color of the html hyperlink a tag (2011). Geraadpleegd op 16-03-2026 van <a href="https://stackoverflow.com/questions/6722467/how-do-i-remove-the-default-link-color-of-the-html-hyperlink-a-tag">
+
+How to make list with an icon such as checkmark (2018). Geraadpleegd op 17-03-2026 van <a href="https://theme.co/forum/t/how-to-make-list-with-an-icon-such-as-checkmark-pro/21961">
